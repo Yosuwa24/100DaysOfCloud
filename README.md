@@ -10,20 +10,16 @@
 5. Update your main README to link back to your Day Journey article
 4. If you need ideas go to [#100DaysOfCloudIdeas](https://github.com/100DaysOfCloud/100DaysOfCloudIdeas)
 
-## How to use this template:
-Fill in your details where you see this icon ✍️
-We have provided a sample Day Journey entry staring at 0. You can delete this example.
 
 ## Yosuwa's Cloud Journey
 
-[✍️ New learner on cloud and having zero IT knowledge
+New learner on cloud and having zero IT knowledge
 
-[✍️ Tell us why you started this challenge]
+[✍️ Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud!
 
-[✍️ Tell us where you want to be at the end of the challenge]
+Hopefully can do some demo for clients or I really would love to be an architect!
 
 - [✍️ Link to your Twitter](https://twitter.com/JoeSeven08)
-- [✍️ Link to your LinkedIn](https://www.linkedin.com/in/username)
 
 ## Stepping out the door
 
