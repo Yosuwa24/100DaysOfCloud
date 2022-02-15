@@ -13,13 +13,13 @@
 
 ## Yosuwa's Cloud Journey
 
-New learner on cloud and having zero IT knowledge
+New learner on cloud and having zero IT knowledge. 
 
-Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud!
+Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud. I would like to prove that everyone can learn cloud!
 
-Hopefully can do some demo for clients or I really would love to be an architect!
+In the end, I would like to have basic knowledge of networking (IP address), virtual machine and cloud. Really hope can do some presentation using some VM. 
 
-[Link to your Twitter](https://twitter.com/JoeSeven08)
+[Twitter](https://twitter.com/JoeSeven08)
 
 ## Stepping out the door
 
