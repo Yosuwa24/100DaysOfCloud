@@ -15,11 +15,11 @@
 
 New learner on cloud and having zero IT knowledge
 
-[✍️ Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud!
+Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud!
 
 Hopefully can do some demo for clients or I really would love to be an architect!
 
-- [✍️ Link to your Twitter](https://twitter.com/JoeSeven08)
+[Link to your Twitter](https://twitter.com/JoeSeven08)
 
 ## Stepping out the door
 
