@@ -13,7 +13,7 @@
 
 ## Yosuwa's Cloud Journey
 
-New learner on cloud and having zero IT knowledge. 
+New learner on cloud. I was an English teacher, call center agent, trainer and now ready to know some basic things about cloud 
 
 Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud. I would like to prove that everyone can learn cloud!
 
