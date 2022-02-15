@@ -12,5 +12,10 @@ First thing first, we should know what IP address is since it will be needed to 
 - What Is Cloud Computing?
 - How to Create AWS account
 
+## Next Steps
+Aguna Course
+- Download & Install Cisco Packet Tracer
+- Simplest Computer Network with CPT
+
 ## Social Proof
 [Twitter](https://twitter.com/JoeSeven08/status/1493534221989998592)
