@@ -1,6 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
 # Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy): Day 1 
 
 ## Introduction
