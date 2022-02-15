@@ -23,7 +23,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+- [ ] ☁️ 1 > [NETWORK FUNDAMENTAL & AWS CCP - DAY 1](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [Second day](Journey/002/Readme.md)
 - [ ] ☁️ 3 > [](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
