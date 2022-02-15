@@ -11,6 +11,7 @@ First thing first, we should know what IP address is since it will be needed to 
 - Public vs Private IP
 - What Is Cloud Computing?
 - How to Create AWS account
+  I was provided IAM account and still need to sign up for the root account later.
 
 ## Next Steps
 Aguna Course
