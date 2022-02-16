@@ -1,49 +1,58 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy): Day 2
 
 ## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I try to simulate how computer network works and try to cope with the AWS course also since already have a root AWS account. However I will focus on the network fundamental first. Here I just wanted to review what cloud computing is.
 
 ## Cloud Research
+**AWS CCP**
+- Traditional IT Overview
+  
+  Here is discussed about how the server was built. Server is composed of CPU,Memory,storage, database and network. Traditionally, each website had their own servers. Like google, it was built in their own garage. When their business grew, they moved to a bigger office so that they can have as many servers as possible. With the help of cloud they do not need to build their own servers. 
+  
+- What is cloud computing
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+  The key word is on demand. People can create how many servers as they need and pay as they go. They can create instantly. So, cloud computing is more efficient rather than the traditional server (private cloud)
 
-## Try yourself
+Aguna Course
+- Download & Install Cisco Packet Tracer
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+  Cisco pakcet tracer is a software to simulate computer netwrok. You can download it by sign up to netacad.com
 
-### Step 1 — Summary of Step
+- Doing simulation with CPT to make the simplest computer network
 
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot (480)](https://user-images.githubusercontent.com/99172259/154237381-666cdb9c-cd54-45ac-9c8c-5223d4fca19f.png)
 
-### Step 1 — Summary of Step
+Real simple. You just need to pick pictures. It illustrates the computer linked by LAN cable then I ping it and it works!
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Introduction to IP Address & Subnetting
 
-### Step 3 — Summary of Step
+Briefly, IP address is the name of a computer. It contain numbers and use this format : x.x.x.x . The numbers we can use are from 0 until 255. However there specific numbers for public IP and private IP. 
+Format for IP Address:  x.x.x.x
+  Number : 0-255
+  examples : 192.168.1.1/24
+correct ip address using prefix (/)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Subnetting is used to determine the most effective prefix that can be used
 
-## ☁️ Cloud Outcome
+example: we have 6 computer in a classroom
+which prefix is the best?
+/24 means 256 ip
+the most appropriate prefix is /29 since /29 consists of 8 ips.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Public & Private IP
 
-## Next Steps
+Public IP  is IP can be accessed on the internet like Youtube, facebook, google etc.
 
-✍️ Describe what you think you think you want to do next.
+
+Private IP is IP in a local network. Example, there are 6 computers in an office in which each computer has their own IP private and they connected with each other. So, the IP can be accessed only from inside the office.
+Range Private IP: 
+10.0.0.0 - 10.255.255.255
+172.16.0.0 - 172.31.255.255
+192.168.0.0 - 192.168.255.255
+
+outside the range of private ip is public ip, for example 13.1.1.1
+
+
 
 ## Social Proof
 
