@@ -13,7 +13,7 @@ I try to simulate how computer network works and try to cope with the AWS course
 
   The key word is on demand. People can create how many servers as they need and pay as they go. They can create instantly. So, cloud computing is more efficient rather than the traditional server (private cloud)
 
-Aguna Course
+**Aguna Course**
 - Download & Install Cisco Packet Tracer
 
   Cisco pakcet tracer is a software to simulate computer netwrok. You can download it by sign up to netacad.com
