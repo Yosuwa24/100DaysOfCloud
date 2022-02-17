@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & Simulating How to Create Instance using Lightsail
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+I continue the network fundamental course and my superior taught me to create instance using lightsail. The lightsail session is a sharing session from my superior so that I can realize that cloud computing is an instant process!  
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**AGUNA COURSE**
+- Determining the most effective prefix
 
-## Try yourself
+/24 means 256 for the total IP
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+ 32 -24     8
+2       >  2   = 256
 
-### Step 1 — Summary of Step
+Why 32? because ip address in total are 32. It is based in binnary way. So, if there are 12 cpu in a room the most appropriate prefix is /28. it is derived from 32 - 28 = 4 so 2.2.2.2 is 16.
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Subnetting 1 - Total IP & Subnetmask
 
-### Step 1 — Summary of Step
+Here I learnt how to count the total ip and how to search for subnetmask number. 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Total IP can be counted this way. For example there are 100 pc in a room and we need to decide the total IP. We can count
+ 32-25   7
+2      =2   = 128
+Meanwhile, ways to count subnetmask is like this way
+256 - total IP
+256 - 128 = 128
 
-### Step 3 — Summary of Step
+So, when we need to input subnetmask in the IP configuration, we can put 255.255.255.128
 
-![Screenshot](https://via.placeholder.com/500x300)
+- IP Network
 
-## ☁️ Cloud Outcome
+The first IP in the network and it must be 0
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- IP broadcast 
 
-## Next Steps
+The last IP in the network. It depends on the total IP. Lets say there are 128 IPs then the last number is 127. And we also need to decide how many block IP we can use. How to count it? We use the previous case about 100 pcs in a room.
+First block
+0 (IP network) - 127 (IP broadcast)
+Second block
+128 (IP network) - 255 (IP broadcast)
 
-✍️ Describe what you think you think you want to do next.
+- IP range 
+
+IP that can be used in configuration. IP network and IP broadcast cant be used.  So, if we have counted the total IP and determine the block, the IP available are 1-126 for the first block 129- 254 for the second block. 
+
+**Sharing Session about Lightsail (Creating instance instantly using AWS)**
+
+Here we would like to create instance. We can choose where the location of the server is, the OS and also the apps. Just click create instance, then it is done. It is super faster than ever!
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[https://twitter.com/JoeSeven08/status/1494332530845417473]
