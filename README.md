@@ -25,7 +25,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 - [ ] ☁️ 1 > [NETWORK FUNDAMENTAL & AWS CCP - DAY 1](Journey/001/Readme.md)
 - [ ] ☁️ 2 > [NETWORK FUNDAMENTAL & AWS CCP - DAY 2](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [](Journey/003/Readme.md)
+- [ ] ☁️ 3 > [NETWORK FUNDAMENTAL DAY 3 AND AWS](Journey/003/Readme.md)
 - [ ] ☁️ 4 > [](Journey/004/Readme.md)
 - [ ] ☁️ 5 > [](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [](Journey/006/Readme.md)
