@@ -52,4 +52,4 @@ Here we would like to create instance. We can choose where the location of the s
 
 ## Social Proof
 
-[https://twitter.com/JoeSeven08/status/1494332530845417473]
+[Twitter](https://twitter.com/JoeSeven08/status/1494332530845417473)
