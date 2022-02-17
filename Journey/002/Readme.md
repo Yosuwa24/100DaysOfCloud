@@ -58,4 +58,4 @@ outside the range of private ip is public ip, for example 13.1.1.1
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1493906342905794561)
