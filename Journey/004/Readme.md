@@ -21,14 +21,21 @@ Prefix : /28
 it comes from 32 - 4
 
 Total IP : 16 (2 to the power of 4)
+
 Subnetmask : 256 - total IP so 256 - 16 = 240  > 255.255.255.240
+
 IP Network   : 0    16    32    48  xxxxxx     > 192.168.1.0
+
 IP Broadcast : 15   31    47    63  xxxxxx     > 192.168.1.15
 
 So, IP range that we can use to configure
-192.168.1.1 - 192.168.1.14
-192.168.1.17 - 192.168.1.30     Block Subnet
-192.168.1.33 - 192.168.1.46
+
+192.168.1.1 - 192.168.1.14   Block Subnet
+
+192.168.1.17 - 192.168.1.30  Block Subnet
+
+192.168.1.33 - 192.168.1.46  Block Subnet
+
 xxxxxxxxxx
 
 We can prove using CPT by inputing the IP address and subnet mask n ping it.
