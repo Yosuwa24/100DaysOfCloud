@@ -65,6 +65,27 @@ In conclusion, the IP configured in the same room should contain the ip number w
 
 192.168.1.33 - 192.168.1.46     Block Subnet 3
 
+**Switch & Router Concept**
+
+To connect computers in a same subnet block we can use switch.
+
+To connect computers in different subnet block we can use router. The router will connect to the switches from different rooms.
+
+Networking Model
+A rule enabling computer communicate with each other. The most popular is TCP/IP. Back then, each vendor has their own networking model until there are TCP/IP and OSI. 
+
+TCP/IP consist of layers
+Application
+Transport
+Network
+Data Link
+Physical
+
+This is how application layer works
+
+![Application Layer](https://user-images.githubusercontent.com/99172259/154661879-468b10e7-527c-4c14-bb43-a9a832f3b828.png)
+
+
 ## Social Proof
 
 [Twitter](link)
