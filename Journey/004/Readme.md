@@ -71,8 +71,8 @@ To connect computers in a same subnet block we can use switch.
 
 To connect computers in different subnet block we can use router. The router will connect to the switches from different rooms.
 
-Networking Model
-A rule enabling computer communicate with each other. The most popular is TCP/IP. Back then, each vendor has their own networking model until there are TCP/IP and OSI. 
+**Networking Model**
+A rule enabling computer communicate with each other. The most popular is TCP/IP. Back then, each vendor has their own networking model until there are TCP/IP and OSI. I also watch this [video](https://www.youtube.com/watch?v=0RedyOvvkM0) 
 
 TCP/IP consist of layers
 Application
@@ -88,4 +88,4 @@ This is how application layer works
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1494629684986155015)
