@@ -1,52 +1,65 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Aguna Course
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Transport Layer (TCP/UDP)
 
-## Try yourself
+transport layer provides service to application layer
+it also provides error mechanism which enable client send request again if an error happens when transferring data
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Network Layer
 
-### Step 1 — Summary of Step
+IP
 
-![Screenshot](https://via.placeholder.com/500x300)
+IP is commonly used. The function is to give name to each computer in order it can communicate each other.
 
-### Step 1 — Summary of Step
+Routing
 
-![Screenshot](https://via.placeholder.com/500x300)
+it can be illustrated as a postal service. It is assigned to send the data to a certain address. It will decide the fastest route to the address.
 
-### Step 3 — Summary of Step
+- Physical Layer
 
-![Screenshot](https://via.placeholder.com/500x300)
+It defines how to connect computer to computer using cabling and energy in the network
+cabling can be wired or wireless
 
-## ☁️ Cloud Outcome
+- Data Link Layer
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Data link layer defines protocol in the physical network. It has error detection mechanism called FCS (Frame Check sequence). If data link detects an error in the network, it will report to transport layer to fix the error
 
-## Next Steps
+- Encapsulation
 
-✍️ Describe what you think you think you want to do next.
+The process of sending data
+
+Data -> Application Layer
+
+TCP Data -> Transport Layer
+
+IP TCP Data -> Network Layer
+
+Data link IP TCP DATA Data link -> Data link layer
+
+10100 -> Physical layer
+
+- Decapsulation
+
+The process of receiving data. It has  process of encapsulation in reverse.
+
+- Name of TCP/IP Messages
+
+Data 
+
+TCP Data -> Segment 
+
+IP TCP Data -> IP Packet 
+
+Data link IP TCP DATA Data link -> Frame
+
+101011 -> Binnary
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1494947230356488192)
