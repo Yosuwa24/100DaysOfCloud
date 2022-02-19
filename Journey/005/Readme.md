@@ -1,5 +1,3 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
 # Aguna Course
 
@@ -59,6 +57,9 @@ Data link IP TCP DATA Data link -> Frame
 
 101011 -> Binnary
 
+- Network Fundamental Exam
+
+Thank God! I passed the exam. Now I have my first certificate on Network Fundamental.
 
 ## Social Proof
 
