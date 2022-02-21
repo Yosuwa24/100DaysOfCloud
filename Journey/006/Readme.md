@@ -6,7 +6,7 @@ After passing the exam of network fundamental, I decide to check this course out
 
 ## Cloud Research
 
-**Types of Cloud Computing
+**Types of Cloud Computing**
 
 - Infrasctruture as a Service
 
