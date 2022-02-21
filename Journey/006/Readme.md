@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
+# AWS CCP (Course on Udemmy by Stepahane Mareek): Types of Cloud Computing,Shared Responsibility Model, IAM
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+After passing the exam of network fundamental, I decide to check this course out. Though, I can also learn virtual machine first, my colleague suggest that I can take this also.
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Types of Cloud Computing
 
-## Try yourself
+- Infrasctruture as a Service
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Platform as a service
 
-### Step 1 — Summary of Step
+- Software as a service
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Global Infrastructure**
 
-### Step 1 — Summary of Step
+- AWS region
 
-![Screenshot](https://via.placeholder.com/500x300)
+- AWS avaiability zones
 
-### Step 3 — Summary of Step
+- AWS data centers
 
-![Screenshot](https://via.placeholder.com/500x300)
+- AWS Edge Loccations/ points of presence
 
-## ☁️ Cloud Outcome
+**Shared Responsibility Model** 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+**IAM**
 
-## Next Steps
+- Identity and access management, global service
 
-✍️ Describe what you think you think you want to do next.
+- Create user & groups then apply policies to the user and groups
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1495688314200166403)
