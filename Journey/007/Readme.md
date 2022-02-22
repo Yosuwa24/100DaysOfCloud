@@ -1,6 +1,8 @@
-# AWS CCP (Course on Udemmy by Stepahane Mareek): IAM Section
+# AWS CCP (Course on Udemmy by Stepahane Mareek): IAM Section & Aguna Course : Virtual Machine Fundamental
 
 ## Cloud Research
+
+## AWS-CCP
 
 **Password and authentication for IAM Users**
 
@@ -35,7 +37,7 @@ it is working
 - to login, you can type aws configure and later you need to input access key id, password and region name
 
 3. AWS Software Developer Kit (SDK) - for code : protected by access keys 
-4. 
+
 It is basically for programming using some code languages and aws sdk can be embedded in your application
 
 **IAM Roles for Services**
@@ -47,6 +49,44 @@ it reports the user security information like when it is created, the password, 
 
 - IAM Access Advisor
 Show the service permissions granted to a user and when it was last accessed
+
+## Aguna Course : Virtual Machine Fundamental
+
+I take this session since it is necessary to take before discussing EC2 on AWS.
+
+**Definition of Virtual Machine**
+
+It is a virtual computer that can operate without any physical hardware (CPU, memory, NIC, disk). To create virtual machine we still need computer and install hypervisor. One of the hypervisors is esx server.  
+
+**Types of Virtual Machine Architecture**
+
+1. Bare-Metal 
+Hardware - Hypervisor - Guest OS VM
+
+Hypervisor used: 
+
+VMwareesxi (licensed)
+
+Proxmox : Free
+
+Use case: Data center servers
+
+2. Hosted Architecture
+Hardware - Host OS - Hypervisor - Guest OS VM
+
+Hypervisor used: 
+
+vmware (licensed)
+
+virtualbox (free)
+
+Use case : Laptop or computer for virtual machine testing'
+
+**Useful source for learning before learning EC2 on AWS CCP**
+
+AWS Power Hour: Cloud Practitioner | S2 E2 (Blaine) | Compute & Network
+
+https://www.twitch.tv/aws/video/772551330
 
 ## Social Proof
 
