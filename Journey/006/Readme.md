@@ -1,4 +1,4 @@
-# AWS CCP (Course on Udemmy by Stepahane Mareek): Types of Cloud Computing,Shared Responsibility Model, IAM
+# AWS CCP (Course on Udemmy by Stepahane Mareek): Section 3 : What is Cloud Computing & Section 4 : IAM
 
 ## Introduction
 
@@ -25,6 +25,8 @@ After passing the exam of network fundamental, I decide to check this course out
 - AWS Edge Loccations/ points of presence
 
 **Shared Responsibility Model** 
+
+AWS is responsible for the cloud service and we are responsible for what we make in the cloud
 
 **IAM**
 
