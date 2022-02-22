@@ -23,11 +23,11 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Stepping out the door
 
-- [ ] ☁️ 1 > [Network Fundamental & AWS CCP - Day 1](Journey/001/Readme.md)
-- [ ] ☁️ 2 > [Network Fundamental & AWS CCP - Day 2](Journey/002/Readme.md)
-- [ ] ☁️ 3 > [Network Fundamental Day 3 AND AWS](Journey/003/Readme.md)
-- [ ] ☁️ 4 > [Network Fundamental Day 4](Journey/004/Readme.md)
-- [ ] ☁️ 5 > [Network Fundamental and Exam](Journey/005/Readme.md)
+- [ ] ☁️ 1 > [Network Fundamental Part 1 & AWS CCP](Journey/001/Readme.md)
+- [ ] ☁️ 2 > [Network Fundamental Part 2 & AWS CCP](Journey/002/Readme.md)
+- [ ] ☁️ 3 > [Network Fundamental Part 3 AND AWS](Journey/003/Readme.md)
+- [ ] ☁️ 4 > [Network Fundamental Part 4](Journey/004/Readme.md)
+- [ ] ☁️ 5 > [Network Fundamental Part 5 and Exam](Journey/005/Readme.md)
 - [ ] ☁️ 6 > [AWS CCP - What is Cloud Computing and IAM Section](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [AWS CCP - IAM Section](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [](Journey/008/Readme.md)
