@@ -50,6 +50,4 @@ Show the service permissions granted to a user and when it was last accessed
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1496090921808838662)
