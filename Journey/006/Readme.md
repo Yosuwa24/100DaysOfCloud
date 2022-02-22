@@ -1,4 +1,4 @@
-# AWS CCP (Course on Udemmy by Stepahane Mareek): Section 3 : What is Cloud Computing & Section 4 : IAM
+# AWS CCP (Course on Udemmy by Stepahane Mareek): What is Cloud Computing & IAM Section
 
 ## Introduction
 
