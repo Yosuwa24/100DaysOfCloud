@@ -9,6 +9,7 @@ Though you want to have ccp certificate in the end, I think you have to know fir
 ## Cloud Research
 
 **Creating Budget**
+
 Before creating an instance using EC2, you have to create budget using IAM user. From the root user you have to activate the access for IAM user. By doing so, the IAM user can create budget.
 
 **Overview of EC2**
