@@ -1,52 +1,44 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# AWS CCP (Course on Udemmy by Stephane Mareek) : EC2
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
 ## Prerequisite
+Though you want to have ccp certificate in the end, I think you have to know first what VM is, since EC2 is a virtual machine. I have already taken some topics on Aguna course : Virtual Machine Fundamental. It discussed what virtual machine is, how it works and so on. 
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Creating Budget**
+Before creating an instance using EC2, you have to create budget using IAM user. From the root user you have to activate the access for IAM user. By doing so, the IAM user can create budget.
 
-## Try yourself
+**Overview of EC2**
+- It is IAAS
+- Renting virtual machine
+- Storing data
+- Scalling the service
+- OS : Linux, windows, Mac OS
+- Can set how much the cpu power, RAM, storage
+- Can set network card
+- Can set firewall rules
+- Bootstrap script using EC2 user data
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**Creating Instance**
 
-### Step 1 — Summary of Step
+It has several steps :
 
-![Screenshot](https://via.placeholder.com/500x300)
+1. Choose your region
+2. After clicking launch instance, Choose AMI (Amazon Machine Image) 
+3. Choose type of instance
+4. Configure instance and add script of user data
+5. Add storage
+6. Add tags
+7. Configure security gruop
+8. Launch the instance
 
-### Step 1 — Summary of Step
+It takes about 10 seconds to run and you can stop it later.
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Once you start again, then it will have different public ip.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1496505568525434880)
