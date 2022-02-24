@@ -23,6 +23,8 @@ Before creating an instance using EC2, you have to create budget using IAM user.
 - Can set firewall rules
 - Bootstrap script using EC2 user data
 
+Still confuse? Watch this [video](https://www.youtube.com/watch?v=izyqJPl9wW8)
+
 **Creating Instance**
 
 It has several steps :
