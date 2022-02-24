@@ -1,4 +1,4 @@
-# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy): Day 1 
+# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy)
 
 ## Introduction
 
