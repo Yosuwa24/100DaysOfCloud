@@ -33,7 +33,7 @@ Security groups are the fundamental of network security in AWS
 3839 : RDP (Remote Desktop Protocol) - log into a windows instance
 
 
-**SSH **
+**SSH**
 
 How you connect inside your cloud server to perform some actions
 
