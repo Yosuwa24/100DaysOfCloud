@@ -1,4 +1,4 @@
-# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy): Day 2
+# Network Fundamental (Ahmad Rosid Komarudin on Aguna Course) & AWS Certified Cloud Practitioner Course (Stephane Maarek on Udemy)
 
 ## Introduction
 I try to simulate how computer network works and try to cope with the AWS course also since already have a root AWS account. However I will focus on the network fundamental first. Here I just wanted to review what cloud computing is.
