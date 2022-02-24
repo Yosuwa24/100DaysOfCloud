@@ -31,7 +31,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 6 > [AWS CCP - What is Cloud Computing and IAM Section](Journey/006/Readme.md)
 - [ ] ☁️ 7 > [AWS CCP - IAM Section & Virtual Machine Fundamental](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [AWS CCP - Creating Instance using EC2](Journey/008/Readme.md)
-- [ ] ☁️ 9 > [](Journey/009/Readme.md)
+- [ ] ☁️ 9 > [AWS CCP - EC2: Instance Type, Security Group, SSH](Journey/009/Readme.md)
 - [ ] ☁️ 10 > [](Journey/010/Readme.md)
 
 ## Walking down the road
