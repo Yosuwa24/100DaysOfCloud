@@ -37,6 +37,11 @@ Security groups are the fundamental of network security in AWS
 - Definition : how you connect inside your cloud server to perform some actions
 - Performing connect to instance using SSH (Windows Power Shell)
 
+Additional source about SSH:
+
+[Video 1](https://www.youtube.com/watch?v=tZop-zjYkrU)
+[Video 2](https://www.youtube.com/watch?v=qWKK_PNHnnA)
+
 
 ## Social Proof
 
