@@ -1,52 +1,42 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS CCP (Course on Udemmy by Stephane Mareek) : EC2 Part 2
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Different types of instances**
 
-## Try yourself
+- General Purpose
+- Compute optimized
+- Memory Optimized
+- Storage optimized
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**Security groups**
 
-### Step 1 — Summary of Step
+Security groups are the fundamental of network security in AWS
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Security group can be attached to multiple instances
+- locked down to a region /vpc combination
+- does live "outside" the EC2
+- it is good to maintain one separate security group for SSH access
 
-### Step 1 — Summary of Step
+**Port Number and meaning**
 
-![Screenshot](https://via.placeholder.com/500x300)
+22 : SSH (Secure shell) - log into a linux instance
 
-### Step 3 — Summary of Step
+21 : FTP (File transfer protocol) upload files into a file share
 
-![Screenshot](https://via.placeholder.com/500x300)
+22 : SFTP (Secure File Transfer Protocol) - Upload files using ssh
 
-## ☁️ Cloud Outcome
+80 : http - access unsecured websites
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+443 : https - access secured websites
 
-## Next Steps
+3839 : RDP (Remote Desktop Protocol) - log into a windows instance
 
-✍️ Describe what you think you think you want to do next.
+
+**SSH **
+
+How you connect inside your cloud server to perform some actions
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)
