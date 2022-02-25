@@ -32,7 +32,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 7 > [IAM  Part 2 & Virtual Machine Fundamental](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 Part 1](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 Part 2](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [EBS](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [EBS & AMI](Journey/010/Readme.md)
 
 ## Walking down the road
 
