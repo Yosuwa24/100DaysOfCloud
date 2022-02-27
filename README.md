@@ -36,7 +36,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](EC2 Instance Storage Part 2, ELB & AGS /011/Readme.md)
+- [ ] ☁️ 11 > [EC2 Instance Storage Part 2, ELB & AGS](Journey/011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
