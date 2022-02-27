@@ -1,52 +1,47 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
-
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Other EC2 Instance Storage & ELB & ASG  (CCP Course on Udemy by Stephane Mareek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**EC2 Image Builder**
 
-## Try yourself
+- Automate the creation, maintain, validate and test EC2 AMI
+- Practice : Using Image Builder
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Status of image builder : building, testing, distributing, available
 
-### Step 1 — Summary of Step
+**EC2 Instance Store**
 
-![Screenshot](https://via.placeholder.com/500x300)
+- EBS has limited performace
+- Need higher performance hardware disk, use EC2 Instance Store
+- Better I/O performance
 
-### Step 1 — Summary of Step
+**EFS -Elastic File System**
+- Managed NFS (network file system) that can be mounted on 100s of EC2
+- EFS works with Linux EC2 instance in mulTi-AZ
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Amazon FSx** 
+- Launch 3rd party high-performance file systems on AWS
+- Fully managed service
+- Types : FSx for Lustre, FSx for Windows File Server, FSx for NetApp ONTAP
 
-### Step 3 — Summary of Step
+**Elastic Load Balancing & Auto Scaling Groups**
 
-![Screenshot](https://via.placeholder.com/500x300)
+Types of Scaling:
+- Vertical scaling
+- Horizontal scaling
+- High availability
 
-## ☁️ Cloud Outcome
+Scalibility vs elasticity (vs agility)
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Practice : Using Load Balancer, Target Group, Auto Scaling Group
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Types of Strategies:
+- Manual Strategies
+- Dynamic 
+- Predictive
 
 ## Social Proof
 
 ✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1497911369014050819)
