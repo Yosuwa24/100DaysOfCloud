@@ -42,6 +42,4 @@ Types of Strategies:
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
 [Twitter](https://twitter.com/JoeSeven08/status/1497911369014050819)
