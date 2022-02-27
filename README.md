@@ -32,11 +32,11 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 7 > [IAM  Part 2 & Virtual Machine Fundamental](Journey/007/Readme.md)
 - [ ] ☁️ 8 > [EC2 Part 1](Journey/008/Readme.md)
 - [ ] ☁️ 9 > [EC2 Part 2](Journey/009/Readme.md)
-- [ ] ☁️ 10 > [EBS & AMI](Journey/010/Readme.md)
+- [ ] ☁️ 10 > [EC2 Instance Storage Part 1](Journey/010/Readme.md)
 
 ## Walking down the road
 
-- [ ] ☁️ 11 > [](Journey/011/Readme.md)
+- [ ] ☁️ 11 > [](EC2 Instance Storage Part 2, ELB & AGS /011/Readme.md)
 - [ ] ☁️ 12 > [](Journey/012/Readme.md)
 - [ ] ☁️ 13 > [](Journey/013/Readme.md)
 - [ ] ☁️ 14 > [](Journey/014/Readme.md)
