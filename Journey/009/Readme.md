@@ -46,4 +46,4 @@ Additional source about SSH:
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1496881840359034881)
