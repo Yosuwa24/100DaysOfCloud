@@ -6,7 +6,7 @@
 ## Prerequisite
 It is better to know this terms:
 - container
-- Docker
+- Docker : this {video}(https://www.youtube.com/watch?v=u-YWtdbpEhQ) will help 
 - Serverless
 
 
