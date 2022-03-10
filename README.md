@@ -42,7 +42,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 14 > [Other Computes](Journey/014/Readme.md)
 - [ ] ☁️ 15 > [Deployment & Managing Infrastructure](Journey/015/Readme.md)
 - [ ] ☁️ 16 > [Global Infrastructure](Journey/016/Readme.md)
-- [ ] ☁️ 17 > [](Journey/017/Readme.md)
+- [ ] ☁️ 17 > [Cloud Integration](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [](Journey/019/Readme.md)
 - [ ] ☁️ 20 > [](Journey/020/Readme.md)
