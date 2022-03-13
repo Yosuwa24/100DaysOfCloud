@@ -13,7 +13,7 @@
 - VPC Endpoints
 - Site to Site VPN & Direct Connect
 - Transit Gateway
-- 
+
 ## Social Proof
 
 [Twitter](https://twitter.com/JoeSeven08/status/1502874239166447620)
