@@ -45,7 +45,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 17 > [Cloud Integration](Journey/017/Readme.md)
 - [ ] ☁️ 18 > [CloudWatch & Metrics](Journey/018/Readme.md)
 - [ ] ☁️ 19 > [VPC & Networking](Journey/019/Readme.md)
-- [ ] ☁️ 20 > [](Journey/020/Readme.md)
+- [ ] ☁️ 20 > [Security and Compliance](Journey/020/Readme.md)
 
 ## Crossing the bridge
 
