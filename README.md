@@ -49,7 +49,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Crossing the bridge
 
-- [ ] ☁️ 21 > [](Journey/021/Readme.md)
+- [ ] ☁️ 21 > [Machine Learning](Journey/021/Readme.md)
 - [ ] ☁️ 22 > [](Journey/022/Readme.md)
 - [ ] ☁️ 23 > [](Journey/023/Readme.md)
 - [ ] ☁️ 24 > [](Journey/024/Readme.md)
