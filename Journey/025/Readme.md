@@ -1,4 +1,4 @@
-# Reviewing my Journey so far
+# Reviewing my Journey so Far
 
 
 ## Cloud Research
