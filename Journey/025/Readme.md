@@ -1,52 +1,42 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+# Reviewing my Journey so far
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+I have coneducted practice for exam. There is so many things that I should improve. Luckily, it tells the gap of knowledge. Here are topics that I can learn in the upcoming days:
 
-## Try yourself
+**Technology**
+- Aws service health dashboard
+- DynamoDB with global tables
+- AWS Systems Manager Session Manager
+- AWS Cognito
+- AWS Single Sign-on
+- S3 Standard IA VS S3 One-Zone IA
+- AWS Lambda
+- RDS Read Replica
+- AWS Quick Starts References
+- Amazon Macie
+- Local Zones vs Edge Locations
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+**Security and compliance**
+- Virtual vs Hardware MFA Device
+- Amazon Inspector
+- AWS System Manager
+- Data Encryption 
+- Shared responsibilty model for security
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+**Cloud concepts**
+- 5 pillars : Operational excellence and Reliability 
+- Trusted advisor vs cloudtrail vs config vs cloudwatch
+- Benefit of using ELB
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+**Billing and pricing**
+- Instance usage pricing
+- Billing forecasting tools
+- AWS Support Plans
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1505925464652935171)
