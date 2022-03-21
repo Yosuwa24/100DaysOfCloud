@@ -27,4 +27,4 @@ AWS Navigate Program
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1505498556735520775)
