@@ -3,7 +3,7 @@
 
 ## Cloud Research
 
-I have coneducted practice for exam. There is so many things that I should improve. Luckily, it tells the gap of knowledge. Here are topics that I can learn in the upcoming days:
+I have conducted practice for exam. There is so many things that I should improve. Luckily, it tells the gap of knowledge. Here are topics that I can learn in the upcoming days:
 
 **Technology**
 - Aws service health dashboard
