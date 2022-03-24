@@ -55,7 +55,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 24 > [AWS Architecting & Ecosystem Section](Journey/024/Readme.md)
 - [ ] ☁️ 25 > [Reviewing my Journey](Journey/025/Readme.md)
 - [ ] ☁️ 26 > [Re-read AWS Materials on Udemy](Journey/026/Readme.md)
-- [ ] ☁️ 27 > [](Journey/027/Readme.md)
+- [ ] ☁️ 27 > [Practicing Exam](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [](Journey/029/Readme.md)
 - [ ] ☁️ 30 > [](Journey/030/Readme.md)
