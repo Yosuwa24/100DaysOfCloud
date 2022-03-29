@@ -58,7 +58,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 27 > [Practicing Exam](Journey/027/Readme.md)
 - [ ] ☁️ 28 > [Cloud Quest : Pricing Calculator & VPC Peering](Journey/028/Readme.md)
 - [ ] ☁️ 29 > [Cloud Quest : RDS](Journey/029/Readme.md)
-- [ ] ☁️ 30 > [](Journey/030/Readme.md)
+- [ ] ☁️ 30 > [Cloud Quest : ASG & EFS](Journey/030/Readme.md)
 
 ## Into the bushy, thorny forest
 
