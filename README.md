@@ -62,7 +62,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Into the bushy, thorny forest
 
-- [ ] ☁️ 31 > [](Journey/031/Readme.md)
+- [ ] ☁️ 31 > [Cloud Quest: ALB&ASG](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [](Journey/032/Readme.md)
 - [ ] ☁️ 33 > [](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
