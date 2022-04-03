@@ -64,7 +64,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 - [ ] ☁️ 31 > [Cloud Quest: ALB&ASG](Journey/031/Readme.md)
 - [ ] ☁️ 32 > [Creating Database Backup in Lightsail](Journey/032/Readme.md)
-- [ ] ☁️ 33 > [](Journey/033/Readme.md)
+- [ ] ☁️ 33 > [Exploring How to Connect FTP Server to Lightsail](Journey/033/Readme.md)
 - [ ] ☁️ 34 > [](Journey/034/Readme.md)
 - [ ] ☁️ 35 > [](Journey/035/Readme.md)
 - [ ] ☁️ 36 > [](Journey/036/Readme.md)
