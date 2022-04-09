@@ -24,7 +24,7 @@ Here is the look when you open the virtualbox
 
 ### Step 3 — Download Ubuntu
 
-![image](https://user-images.githubusercontent.com/99172259/162555355-04782a9c-9cf1-43be-9de6-d0f1329dc209.png
+![image](https://user-images.githubusercontent.com/99172259/162555355-04782a9c-9cf1-43be-9de6-d0f1329dc209.png)
 
 
 ### Step 4 — Install Ubuntu on VirtualBox
