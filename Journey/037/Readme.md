@@ -16,7 +16,7 @@
 
 ### Step 2 — Open the Downloaded File and Install it
 
-!![image](https://user-images.githubusercontent.com/99172259/162555229-c580ca78-a765-43f1-aafc-5305f86022be.png)
+![image](https://user-images.githubusercontent.com/99172259/162555229-c580ca78-a765-43f1-aafc-5305f86022be.png)
 
 Here is the look when you open the virtualbox
 ![image](https://user-images.githubusercontent.com/99172259/162555258-8e24988a-910c-4a2c-b8d0-7472facdef6b.png)
