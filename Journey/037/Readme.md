@@ -19,6 +19,8 @@
 ![image](https://user-images.githubusercontent.com/99172259/162555229-c580ca78-a765-43f1-aafc-5305f86022be.png)
 
 Here is the look when you open the virtualbox
+
+
 ![image](https://user-images.githubusercontent.com/99172259/162555258-8e24988a-910c-4a2c-b8d0-7472facdef6b.png)
 
 
@@ -31,10 +33,13 @@ Here is the look when you open the virtualbox
 - Open the VirtualBox
 - Click New
 - Type Ubuntu, and it will automatically appear like below
+
 ![image](https://user-images.githubusercontent.com/99172259/162555421-6cc7319a-1b9a-4dff-a906-19ca5c72d724.png)
+
 - The next steps you can just click on next and let it as the default
 - There will be also configuration on the command line here I follow as the instruction based on the video in the Aguna Course
 - In the end you can login and type the password
+
 ![image](https://user-images.githubusercontent.com/99172259/162555603-57568651-90e8-4c5e-9c51-3c721ed9ce48.png)
 
 ## Next Steps
