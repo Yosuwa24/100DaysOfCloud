@@ -1,52 +1,48 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Learning to Create VM using VirtualBox (Aguna Course)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
-
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Install VirtualBox
+- Install ubuntu vm into virtualbox
+- Login successfully
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1 — Download VirtualBox on your PC/Laptop
 
-### Step 1 — Summary of Step
+![image](https://user-images.githubusercontent.com/99172259/162555137-9259a9a2-1f2d-496d-be55-4d60a1609e24.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 — Open the Downloaded File and Install it
 
-### Step 1 — Summary of Step
+!![image](https://user-images.githubusercontent.com/99172259/162555229-c580ca78-a765-43f1-aafc-5305f86022be.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Here is the look when you open the virtualbox
+![image](https://user-images.githubusercontent.com/99172259/162555258-8e24988a-910c-4a2c-b8d0-7472facdef6b.png)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 3 — Download Ubuntu
 
-## ☁️ Cloud Outcome
+![image](https://user-images.githubusercontent.com/99172259/162555355-04782a9c-9cf1-43be-9de6-d0f1329dc209.png
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+
+### Step 4 — Install Ubuntu on VirtualBox
+- Open the VirtualBox
+- Click New
+- Type Ubuntu, and it will automatically appear like below
+![image](https://user-images.githubusercontent.com/99172259/162555421-6cc7319a-1b9a-4dff-a906-19ca5c72d724.png)
+- The next steps you can just click on next and let it as the default
+- There will be also configuration on the command line here I follow as the instruction based on the video in the Aguna Course
+- In the end you can login and type the password
+![image](https://user-images.githubusercontent.com/99172259/162555603-57568651-90e8-4c5e-9c51-3c721ed9ce48.png)
 
 ## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Learning to create clone
+- Learning to create snapshot
+- Learning to do export and import VM
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1512464462854295555)
