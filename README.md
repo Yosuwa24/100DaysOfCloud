@@ -70,8 +70,8 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 36 > [Practicing Exam](Journey/036/Readme.md)
 - [ ] ☁️ 37 > [VirtualBox Learning Part 1](Journey/037/Readme.md)
 - [ ] ☁️ 38 > [VirtualBox Learning Part 2](Journey/038/Readme.md)
-- [ ] ☁️ 39 > [](Journey/039/Readme.md)
-- [ ] ☁️ 40 > [](Journey/040/Readme.md)
+- [ ] ☁️ 39 > [AWS Sustainability & Route 53](Journey/039/Readme.md)
+- [ ] ☁️ 40 > [Reviewing & Practicing Exam](Journey/040/Readme.md)
 
 ## Trekking the dunes
 
