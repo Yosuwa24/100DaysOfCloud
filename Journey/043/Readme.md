@@ -1,6 +1,6 @@
 
 
-# Registering AWS CCP Exam 6 Reviewing AWS Shield
+# Registering AWS CCP Exam & Reviewing AWS Shield
 
 ## Cloud Research
 
