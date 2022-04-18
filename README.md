@@ -75,8 +75,8 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Trekking the dunes
 
-- [ ] ☁️ 41 > [](Journey/041/Readme.md)
-- [ ] ☁️ 42 > [](Journey/042/Readme.md)
+- [ ] ☁️ 41 > [Practicing Exam](Journey/041/Readme.md)
+- [ ] ☁️ 42 > [Reviewing & Practicing Exam](Journey/042/Readme.md)
 - [ ] ☁️ 43 > [](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [](Journey/045/Readme.md)
