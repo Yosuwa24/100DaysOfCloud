@@ -1,52 +1,53 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Intro to YAML, JSON, Network Starter Pack (AWS SAA Course on Learn Cantrill by Adrian Cantrill)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Intro to YAML**
+- Yaml aint mark up language
+- used in cloud formation
+![image](https://user-images.githubusercontent.com/99172259/165683984-b97088ea-91af-4fe2-a7e3-58574e088b14.png)
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+**Intro to JSON**
+- JavaScript Object Notation
+- Used in cloud formation & IAM identity policy
 
-![Screenshot](https://via.placeholder.com/500x300)
+![json example](https://user-images.githubusercontent.com/99172259/165683888-504b5a58-b5d1-448c-8810-a9a270497f68.JPG)
 
-### Step 1 — Summary of Step
+**Network Starter Pack - Intro**
+OSI 7 Layer Model
 
-![Screenshot](https://via.placeholder.com/500x300)
+Media Layers
 
-### Step 3 — Summary of Step
+1. Physical
+2. Data Link
+3. Network
 
-![Screenshot](https://via.placeholder.com/500x300)
+Host Layers
 
-## ☁️ Cloud Outcome
+4. Transport
+5. Session
+6. Presentation
+7. Application
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+--------------------------------
 
-## Next Steps
+1. Physical
+- Physical medium can be:
+copper (electrical)
+fibre (light)
+wifi (RF)
+- No access control
+- No uniquely identified devices
+- no device => device communications
+more devices connected to a hub, the more possible collision to happen. It needs layer 2.
 
-✍️ Describe what you think you think you want to do next.
+2. Data Link
+- Provide control access to the layer 1 medium so it avoids collision in data transmission
+- It identifies MAC address & frames
+- The tool that uses Layer 2 is a switch
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1519553685566935040)
