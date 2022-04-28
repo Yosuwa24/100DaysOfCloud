@@ -80,7 +80,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 43 > [Registering AWS CCP Exam & AWS Shield](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [Last Exam Practice before CCP Exam](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [Exam: Thank God I passed](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [](Journey/046/Readme.md)
+- [ ] ☁️ 46 > [AWS SAA Course Learn Cantrill - Part 1](Journey/046/Readme.md)
 - [ ] ☁️ 47 > [](Journey/047/Readme.md)
 - [ ] ☁️ 48 > [](Journey/048/Readme.md)
 - [ ] ☁️ 49 > [](Journey/049/Readme.md)
