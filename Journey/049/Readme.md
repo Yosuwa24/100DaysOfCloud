@@ -14,10 +14,10 @@
 It has reliable but rather slow connection 
 
 - UDP (User datagram protocol)
-- 
+
 It has less reliable connection but it is faster
 
-Those are running on the IP
+Both TCP and UDP are running on the IP
 
 ## Social Proof
 
