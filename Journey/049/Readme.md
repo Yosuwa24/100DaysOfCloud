@@ -1,52 +1,24 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Layer 4: Transport - A Course on Learn Cantrill by Adrian Cantrill
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+- Layer 3 has problems such as incorrect order of packets, cannot separate packets from different applications.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Layer 4 has these components to solve the problems of layer 3.The transport layer adds Ports, error correction, retransmission, flow control and a connection orientated architecture. It has two kinds, one of them can be used based on the needs, namely
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+- TCP (Transmission Control Protocol 
+  
+It has reliable but rather slow connection 
 
-### Step 1 — Summary of Step
+- UDP (User datagram protocol)
+- 
+It has less reliable connection but it is faster
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+Those are running on the IP
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1524721121085767681)
