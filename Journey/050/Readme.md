@@ -8,8 +8,11 @@
 
 A private IP should be translated into a public IP in order that it can communicate with the internet. The NAT device will be needed to do the translation. NAT are devided into two categories:
 1.  Static NAT
-  1 private ip translated into one permanent public ip
+
+One private ip translated into one permanent public ip.
+  
 2. Dynamic NAT
+
 Public ip allocations are temporary allocation from a public ip pool. Multiple private ip can use the same public ip. If the public IP pool is exhausted, external access can fail.
 
 **Port Address Translation (PAT)**
