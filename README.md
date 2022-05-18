@@ -89,7 +89,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 ## Winding through the canyons
 
 - [ ] ☁️ 51 > [AWS SAA Course Learn Cantrill - Part 6](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [](Journey/052/Readme.md)
+- [ ] ☁️ 52 > [AWS SAA Course Learn Cantrill - Part 7](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
