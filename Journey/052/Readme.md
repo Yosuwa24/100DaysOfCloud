@@ -58,6 +58,9 @@ Used for :
 - web based email
 - virtual private networks
 
+additional source for ssl and tls :
+
+https://www.youtube.com/watch?v=gX4GwH_Pl_4
 
 ## Social Proof
 
