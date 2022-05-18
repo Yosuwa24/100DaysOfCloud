@@ -1,52 +1,64 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# DDos, SSL & TLS - A Course on Learn Cantrill by Adrian Cantrill
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Distributed Denial of Service (DDoS)**
 
-## Try yourself
+Definition
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Attack designed to overload websites
+- Compete against legitimate connections
+- Distributed - hard to block individual IPs/Ranges
+- often involve large armies of compromised machines (botnets)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+Types of DDoS Attack:
 
-### Step 1 — Summary of Step
+Application layer - HTTP flood
 
-![Screenshot](https://via.placeholder.com/500x300)
+Protocol Attack - SYN Flood
 
-### Step 3 — Summary of Step
+Volumetric - DNS Amplification
 
-![Screenshot](https://via.placeholder.com/500x300)
+**SSL and TLS**
 
-## ☁️ Cloud Outcome
+Privacy and Data Integrity between client and server
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Privacy -  communications are encrypted
 
-## Next Steps
+Secure Sockect Layer (SSL)
 
-✍️ Describe what you think you think you want to do next.
+1. Web browser, send a message to web server for connecting a SSL website
+2. Web browser request the web server to identify itself
+3. Web server will respond it, by sending a copy of its SSL certificate
+4. Web browser will authenticate this certificate, send message back to server
+5. Web server acknowledge back to browser and encrypted data exchanged between computer and web server
+
+Transport layer security (TLS)
+
+TLS is recent security system
+
+TLS ensures the security and privacy of data
+
+TLS is designed to provide encryption, authentication and data integrity
+
+TLS is formed of two layers:
+
+- Record protocol : this part of the communications can be used with or without encryption
+- Handshake protocol : to authenticate each other and to make use of encryption algorithms
+
+Used for : 
+
+- online credit card transactions
+- any sensitive information exchanged online
+- web based email
+- virtual private networks
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1526833387834847232)
