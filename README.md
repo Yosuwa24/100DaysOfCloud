@@ -80,16 +80,16 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 43 > [Registering AWS CCP Exam & AWS Shield](Journey/043/Readme.md)
 - [ ] ☁️ 44 > [Last Exam Practice before CCP Exam](Journey/044/Readme.md)
 - [ ] ☁️ 45 > [Exam: Thank God I passed](Journey/045/Readme.md)
-- [ ] ☁️ 46 > [AWS SAA Course Learn Cantrill - Part 1](Journey/046/Readme.md)
-- [ ] ☁️ 47 > [AWS SAA Course Learn Cantrill - Part 2](Journey/047/Readme.md)
-- [ ] ☁️ 48 > [AWS SAA Course Learn Cantrill - Part 3](Journey/048/Readme.md)
-- [ ] ☁️ 49 > [AWS SAA Course Learn Cantrill - Part 4](Journey/049/Readme.md)
-- [ ] ☁️ 50 > [AWS SAA Course Learn Cantrill - Part 5](Journey/050/Readme.md)
+- [ ] ☁️ 46 > [Intro to YAML, JSON, Network Starter Pack:Layer 1 & 2](Journey/046/Readme.md)
+- [ ] ☁️ 47 > [Decimal to Binary Conversion (IP Addressing)](Journey/047/Readme.md)
+- [ ] ☁️ 48 > [Layer 3: Network ](Journey/048/Readme.md)
+- [ ] ☁️ 49 > [Layer 4: Transport](Journey/049/Readme.md)
+- [ ] ☁️ 50 > [NAT & PAT](Journey/050/Readme.md)
 
 ## Winding through the canyons
 
-- [ ] ☁️ 51 > [AWS SAA Course Learn Cantrill - Part 6](Journey/051/Readme.md)
-- [ ] ☁️ 52 > [AWS SAA Course Learn Cantrill - Part 7](Journey/052/Readme.md)
+- [ ] ☁️ 51 > [IPv4 & Subnetting](Journey/051/Readme.md)
+- [ ] ☁️ 52 > [DDos, SSL & TLS](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [Cloudformation](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [](Journey/054/Readme.md)
 - [ ] ☁️ 55 > [](Journey/055/Readme.md)
