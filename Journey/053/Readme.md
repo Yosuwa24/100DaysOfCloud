@@ -1,52 +1,27 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Cloudformation : Part 1 - A Course on Learn Cantrill by Adrian Cantrill
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Cloudformation**
 
-## Try yourself
+- To make it easy to create environment especially if you have more than one environment, AWS provide us cloudformation. It is categorized as a platform as service. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- It is free and we only pay for the resources used.
 
-### Step 1 — Summary of Step
+- Cloudformation can use one of these formats for the template:
 
-![Screenshot](https://via.placeholder.com/500x300)
+yaml or json
 
-### Step 1 — Summary of Step
+- After creating the template, cloudformation will create a stack, a collection of AWS resources that you can manage as a single unit. Cloudformation can create more than one stack from a template.
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Cloudformation can create, update, delete stack.
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/99172259/169342517-ab5252f0-5775-4cb3-b3f1-17b6d5f11fe6.png)
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
-
-## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1527319145658073090)
