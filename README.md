@@ -17,7 +17,7 @@ New learner on cloud. I was an English teacher, call center agent, trainer and n
 
 Technology grows rapidly and cloud is used widely. To adapt in this era everyone needs to learn basic IT things including cloud. I would like to prove that everyone can learn cloud!
 
-In the end, I would like to have basic knowledge of networking (IP address), virtual machine and cloud. Really hope can do some presentation using some VM. Really hope that I can be a Certified Cloud Practicioner and learning some architect fundamental
+In the end, I would like to have basic knowledge of networking (IP address), virtual machine and cloud. Really hope can do some presentation using some VM. Really hope that I can be a Certified Cloud Practicioner (thank God I passed the exam on day 45). Since day 46, I encourage my self to learn deeper so that one day I can pass the AWS Solution Architect Associate!
 
 [Twitter](https://twitter.com/JoeSeven08)
 
