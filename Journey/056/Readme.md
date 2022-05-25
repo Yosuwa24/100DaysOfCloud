@@ -1,52 +1,31 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# DNS & Registering Domain Using Route 53
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**DNS - Domain Name System**
 
-## Try yourself
+Definition
+It allows us to search a website based on name, translating a domain into IP address. When we type on our browser www.amazon.com it actually has some work frame. First, it will ask to the dns resolver (you may call it a phone book) to bridge the communication gap. It will search for the right IP for a specific domain. 
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**DNS Lookup**
+we type abc.com in our web browser - DNS Resolver - Root server - Top level domain server (.com) - Auth name server / domain name server - IP address - DNS Resolver - web browser - particular web server (abc.com) 
 
-### Step 1 — Summary of Step
+**Root server**
+There are twelve different organization that organize the root server. 
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+**Registering domain using Route 53**
 
-![Screenshot](https://via.placeholder.com/500x300)
+It is actually a simple step. You can just look up route 53 on AWS service. Then register domain and type the name of the domain. Later it will inform you the availability and also the price.
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+
+[Twitter](https://twitter.com/JoeSeven08/status/1529408167142387713)
