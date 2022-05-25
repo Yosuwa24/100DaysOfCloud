@@ -92,7 +92,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 52 > [DDos, SSL & TLS](Journey/052/Readme.md)
 - [ ] ☁️ 53 > [Cloudformation intro](Journey/053/Readme.md)
 - [ ] ☁️ 54 > [Cloudformation demo](Journey/054/Readme.md)
-- [ ] ☁️ 55 > [](Journey/055/Readme.md)
+- [ ] ☁️ 55 > [Clouwatch Alarm](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [](Journey/058/Readme.md)
