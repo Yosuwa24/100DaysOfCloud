@@ -1,52 +1,65 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# DNS Record Type, Elastic IP and EC2 Placement Group 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**DNS records types**
 
-## Try yourself
+Commonly used record types
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+A (Host address)
+AAAA (IPv6 host address)
+ALIAS (Auto resolved alias)
+CNAME (Canonical name for an alias)
+MX (Mail eXchange)
+NS (Name Server)
+PTR (Pointer)
+SOA (Start Of Authority)
+SRV (location of service)
+TXT (Descriptive text)
 
-### Step 1 — Summary of Step
+Additional source:
 
-![Screenshot](https://via.placeholder.com/500x300)
+https://www.jetorbit.com/panduan/mengenal-dan-mengetahui-jenis-jenis-dns-record
 
-### Step 1 — Summary of Step
+https://simpledns.plus/help/dns-record-types
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Elastic IP**
 
-## ☁️ Cloud Outcome
+When we create EC2 instances, it will automatically give us public ip. However, the public ip will change once we stop the instance and start it again. So, to overcome this, we have to associate an elastic IP to our EC2 instance.
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Applying Elastic IP on EC2 Instances
 
-## Next Steps
+It has easy steps. Just click on elastic IP and allocate elastic ip. After creating it, associate with the instance. 
 
-✍️ Describe what you think you think you want to do next.
+![image](https://user-images.githubusercontent.com/99172259/170452778-6a8ea2ad-9b67-4c9a-b9ba-e8f752f1d8de.png)
+
+![image](https://user-images.githubusercontent.com/99172259/170452902-1e9be391-86e1-4095-93e8-f90387c43b50.png)
+
+
+
+**EC2 Placement Groups**
+
+When we have more than one instance, we can apply a strategy that suits our goal. On the EC2 menu, we can create placement groups and each placement group offer different benefits. 
+
+
+Cluster (Performance)
+
+Spread (Resilience)
+
+Partition (Topology Awareness)
+
+
+![image](https://user-images.githubusercontent.com/99172259/170453018-d72646b9-71cc-457f-84c2-47de5bed1d52.png)
+
+![image](https://user-images.githubusercontent.com/99172259/170453077-49bb8154-970a-43fa-aee8-35f3dfe09e1f.png)
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1529746841382047744)
