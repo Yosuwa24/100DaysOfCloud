@@ -95,7 +95,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 55 > [Clouwatch Alarm](Journey/055/Readme.md)
 - [ ] ☁️ 56 > [DNS and Creating Domain using Route 53](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [DNS record type, elastic ip, ec2 placement group](Journey/057/Readme.md)
-- [ ] ☁️ 58 > [](Journey/058/Readme.md)
+- [ ] ☁️ 58 > [AWS Organization](Journey/058/Readme.md)
 - [ ] ☁️ 59 > [](Journey/059/Readme.md)
 - [ ] ☁️ 60 > [](Journey/060/Readme.md)
 
