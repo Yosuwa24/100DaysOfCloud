@@ -1,52 +1,33 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# AWS Organization 
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+
+- Grouping accounts with one master account. Usually it is applied by a large business.
+- The billing will be consolidated into one.
+- The master account or  management account can do anything (service control policy)
+- The master account can add other AWS account or can create a new aws account by registering an email.
+
+<img src="https://user-images.githubusercontent.com/99172259/170803649-d456d32d-9cb7-43c5-9596-b2065d8515aa.png" width="450" height="300" />
+
+
+- Organization can create organization unit which is a subordinate of the organization (Within the OU can create the OU as well)
+- The service control policy can limit service access to organization unit and accounts.
+- When we apply a deny access on a certain service on the top of the OU, the subordinate cant access the service
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Creating an organization with two organization unit.
 
-### Step 1 — Summary of Step
+Creating an account and move it to an organization unit.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Creating deny access to S3 for an ogranization unit. 
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+<imag src="https://user-images.githubusercontent.com/99172259/170803486-44aee965-3abe-44f5-b7fd-8f0f6998c1f4.png" width="450" height="300" />
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1530357867559395328)
