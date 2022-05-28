@@ -26,7 +26,7 @@ Creating an account and move it to an organization unit.
 
 Creating deny access to S3 for an ogranization unit. 
 
-<imag src="https://user-images.githubusercontent.com/99172259/170803486-44aee965-3abe-44f5-b7fd-8f0f6998c1f4.png" width="450" height="300" />
+<img src="https://user-images.githubusercontent.com/99172259/170803486-44aee965-3abe-44f5-b7fd-8f0f6998c1f4.png" width="450" height="300" />
 
 ## Social Proof
 
