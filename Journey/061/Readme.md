@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Whizlab Chanllenge of the Week : Migrating EC2 Web to Another Region
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- Create an Amazon EC2 Instance in N.Virginia region.
+- Select Amazon Linux 2 AMI and t2.micro instance type.SSH into the EC2 Instance and host a HTML file named test.html in the EC2 root folder with exact text shown below
 
-## Try yourself
+Whizlabs Test Page
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- To Perform SSH operation
 
-### Step 1 — Summary of Step
+Windows Users use Putty Software.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Linux/Mac Users use Terminal.
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
+- Migrate the N.Virginia EC2 Instance to Mumbai region using EC2 snapshot.
+- Launch an EC2 Instance in Mumbai region by creating a Custom AMI from the snapshot with default configurations.
+- Test the HTML file hosted in Mumbai EC2 Instance.
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+![image](https://user-images.githubusercontent.com/99172259/171824222-2cda28f2-a34d-4f9c-8a8d-9026371e2453.png)
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1532377118923177984)
