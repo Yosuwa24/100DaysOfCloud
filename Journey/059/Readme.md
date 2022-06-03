@@ -19,6 +19,5 @@
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
 [Twitter](https://twitter.com/JoeSeven08/status/1530357867559395328)
