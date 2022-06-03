@@ -96,8 +96,8 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 56 > [DNS and Creating Domain using Route 53](Journey/056/Readme.md)
 - [ ] ☁️ 57 > [DNS record type, elastic ip, ec2 placement group](Journey/057/Readme.md)
 - [ ] ☁️ 58 > [AWS Organization](Journey/058/Readme.md)
-- [ ] ☁️ 59 > [Cloudtrail](Journey/059/Readme.md)
-- [ ] ☁️ 60 > [](Journey/060/Readme.md)
+- [ ] ☁️ 59 > [Cloudtrail - Creating Management Event](Journey/059/Readme.md)
+- [ ] ☁️ 60 > [S3 - Creating Bucket Policy (Deny access) and Static Website](Journey/060/Readme.md)
 
 ## Stumbling through the caves
 
