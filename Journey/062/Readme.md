@@ -1,52 +1,81 @@
 **Add a cover photo like:**
 ![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Deploying OpenLiteSpeed on EC2
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Creating EC2 Instance by following details**
+- AMI Ubuntu 20.04
+- Enabling Public IP
+- Using pem. for primary key so that it can be SSH through Putty
 
-## Try yourself
+**Deploying OpenLiteSpeed**
+- SSH through Putty
+- Running following commands based on https://www.howtoforge.com/tutorial/how-to-install-and-configure-openlitespeed-server-along-with-mariadb-and-php-on-ubuntu-2004/
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Update system.
 
-### Step 1 — Summary of Step
+$ sudo apt update
 
-![Screenshot](https://via.placeholder.com/500x300)
+$ sudo apt upgrade
 
-### Step 1 — Summary of Step
+Step 1 - Configure Firewall
 
-![Screenshot](https://via.placeholder.com/500x300)
+We need to enable SSH, HTTP, HTTPS and ports 7080, 8088 for the firewall.
 
-### Step 3 — Summary of Step
+$ sudo ufw allow OpenSSH
 
-![Screenshot](https://via.placeholder.com/500x300)
+$ sudo ufw allow http
+
+$ sudo ufw allow https
+
+$ sudo ufw allow 7080/tcp
+
+$ sudo ufw allow 8088/tcp
+
+Check the status of the firewall.
+
+<image src= https://user-images.githubusercontent.com/99172259/171991635-052aa205-8bbf-4c7a-bb20-43d0acdd42e0.png width="450" height="300" />
+
+Step 2 
+
+Add the OpenLiteSpeed Repository Key.
+
+$ wget -qO - https://rpms.litespeedtech.com/debian/lst_repo.gpg | sudo apt-key add -
+
+Add the Repository.
+
+$ echo "deb http://rpms.litespeedtech.com/debian/ focal main" | sudo tee /etc/apt/sources.list.d/openlitespeed.list
+
+Update the Repository.
+
+$ sudo apt update
+
+Install OpenLiteSpeed
+
+$ sudo apt install openlitespeed
+
+Check the status of the server.
+
+$ sudo /usr/local/lsws/bin/lswsctrl status
+
+Step 3 - Configure OpenLiteSpeed
+
+$ sudo /usr/local/lsws/admin/misc/admpass.sh
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Here is the result after I enter the front page of the web server http://54.237.46.73:8088/
 
-## Next Steps
+<img src= https://user-images.githubusercontent.com/99172259/171991824-10ab37cd-36c6-476f-93d4-346c6ad59861.png width="450" height="300" />
 
-✍️ Describe what you think you think you want to do next.
+Here is the admin panel
+
+<img src= https://user-images.githubusercontent.com/99172259/171991911-20cad3f2-dfba-4faf-8592-4839b2f099c4.png width="450" height="300" />
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1533008703850696704)
