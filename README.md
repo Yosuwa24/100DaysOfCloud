@@ -102,7 +102,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 ## Stumbling through the caves
 
 - [ ] ☁️ 61 > [EC-based Web Migration to Another Region](Journey/061/Readme.md)
-- [ ] ☁️ 62 > [](Journey/062/Readme.md)
+- [ ] ☁️ 62 > [Deploying OpenLiteSpeed Web Server on EC2 Instance](Journey/062/Readme.md)
 - [ ] ☁️ 63 > [](Journey/063/Readme.md)
 - [ ] ☁️ 64 > [](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
