@@ -37,7 +37,7 @@ Check the status of the firewall.
 
 <image src= https://user-images.githubusercontent.com/99172259/171991635-052aa205-8bbf-4c7a-bb20-43d0acdd42e0.png width="450" height="300" />
 
-Step 2 
+Step 2 - Install OpenLiteSpeed
 
 Add the OpenLiteSpeed Repository Key.
 
