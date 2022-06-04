@@ -6,8 +6,9 @@
 
 **Creating EC2 Instance by following details**
 - AMI Ubuntu 20.04
-- Enabling Public IP
 - Using pem. for primary key so that it can be SSH through Putty
+- For the security group, please allow accordingly. Allow ssh, http, https tcp port 8088 and 7080 from anywhere
+- Attaching elastic ip so that if it stopped, the public ip remain the same
 
 **Deploying OpenLiteSpeed**
 - SSH through Putty
