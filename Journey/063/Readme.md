@@ -1,52 +1,46 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+
+# Deploying FreeNAS on Virtualbox
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+What is network-attached storage (NAS)?
+Network-attached storage (NAS) is dedicated file storage that enables multiple users and heterogeneous client devices to retrieve data from centralized disk capacity. Users on a local area network (LAN) access the shared storage via a standard Ethernet connection.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+source : https://www.techtarget.com/searchstorage/definition/network-attached-storage
 
 ## Cloud Research
+The steps I did, based on YT video. Source : https://www.youtube.com/watch?v=1HtdjoCaMtk
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
 
-## Try yourself
+**Creating a machine on VirtualBox**
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Select BSD as the OS, use 64 bit version, previously I used 32 bit and it failed
+- The suggested memory size is 6 Gb but I chose 1 Gb
+- For the storage I set 16 Gb
+- Kindly set up the network to Bridged adapter so that the vm can connect using your wifi laptop
+- Also create additional hard disk 
 
-### Step 1 — Summary of Step
+here is the result
 
-![Screenshot](https://via.placeholder.com/500x300)
+<img src= https://user-images.githubusercontent.com/99172259/172029687-f3ad3eac-6899-4f64-a109-de56f66cdc7a.png width="800" height="550" />
 
-### Step 1 — Summary of Step
+**Installing FreeNAS in the Machine**
+- Previously you can download the FreeNAS on this link https://downloads.digitaltrends.com/freenas/windows
+- Start the machine you just crated
+- Insert the disk. 
+<img src= https://user-images.githubusercontent.com/99172259/172029803-71dad2d0-27ee-438e-abf0-5cf1abc93ffc.png width="300" height="250" />
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Reset the machine
+- Wait until the installation ends. Before it ends, you will need to configure the password
+- Type in the http site that is provided at the end of the installation process
+- When login, the username is root. For the password, it was the same as it was set at the configuration step
 
-### Step 3 — Summary of Step
+Here is the result:
 
-![Screenshot](https://via.placeholder.com/500x300)
+![Screenshot (517)](https://user-images.githubusercontent.com/99172259/172029865-3fb5a3c7-1663-4ba8-9e9c-c0542d4bd04f.png)
 
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1533243761186471936)
