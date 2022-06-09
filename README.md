@@ -104,7 +104,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 61 > [EC-based Web Migration to Another Region](Journey/061/Readme.md)
 - [ ] ☁️ 62 > [Deploying OpenLiteSpeed Web Server on EC2 Instance](Journey/062/Readme.md)
 - [ ] ☁️ 63 > [Deploying FreeNAS on Virtualbox](Journey/063/Readme.md)
-- [ ] ☁️ 64 > [](Journey/064/Readme.md)
+- [ ] ☁️ 64 > [101 Encryption, KMS, Object EncryptionJourney/064/Readme.md)
 - [ ] ☁️ 65 > [](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [](Journey/066/Readme.md)
 - [ ] ☁️ 67 > [](Journey/067/Readme.md)
