@@ -1,52 +1,40 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Connecting EC2 Instance Public Server to EC2 Private Server 
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+This is a Whizlab challenge.
 
-## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+Here are the screenshot of the steps in the challenge:
 
-## Try yourself
+![image](https://user-images.githubusercontent.com/99172259/173389398-3645d5e5-634d-4b33-ac6f-dbecc48c8bd7.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+![image](https://user-images.githubusercontent.com/99172259/173389553-8923d616-a35f-4404-b6ba-d27e6588ba98.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 1 — Summary of Step
+After we create the VPC, subnet, route table, Internet Gateway, NAT Gateway and EC2 with public subnet and EC2 with private subnet. We have to perform ssh from the public ec2 server to the private ec2 server and run this commamd:
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/99172259/173389610-583c6c61-0074-4f93-a4d5-3113204301fc.png)
 
-### Step 3 — Summary of Step
+Actually, I managed to install the httpd but in the end I failed the task. I have no idea why it failed.
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Notes on ssh commands:**
+- Before ssh to a private subnet instance, store the primary key file into the public server
 
-## ☁️ Cloud Outcome
+nan0 filename.pem
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+- Then ssh with the pem
 
-## Next Steps
+sudo ssh ec2user@hostip -i filename.pem
 
-✍️ Describe what you think you think you want to do next.
 
+ 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1535640011646697472)
