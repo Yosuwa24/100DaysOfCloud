@@ -1,5 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+
 
 # MFA Activation, S3 Storage Classes, S3 Replication
 
