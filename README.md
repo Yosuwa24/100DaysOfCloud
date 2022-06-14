@@ -107,7 +107,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 64 > [101 Encryption, KMS, Object Encryption](Journey/064/Readme.md)
 - [ ] ☁️ 65 > [S3 Encryption Types](Journey/065/Readme.md)
 - [ ] ☁️ 66 > [Connecting EC2 with Public Access tp EC2 with Private Access](Journey/066/Readme.md)
-- [ ] ☁️ 67 > [](Journey/067/Readme.md)
+- [ ] ☁️ 67 > [MFA Activation, S3 Storage Classes, S3 Replication](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [](Journey/069/Readme.md)
 - [ ] ☁️ 70 > [](Journey/070/Readme.md)
