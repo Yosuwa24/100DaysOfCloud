@@ -1,52 +1,61 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# S3 Replication Demo & Pre-Designed URL
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### S3 Replication Demo
 
-## Try yourself
+You can have a broader knowledge regarding what S3 replication is and what the benefits are by reading this source from AWS https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication.html
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+In conclusion S3 Replication is to replicate our object to the same region (SRR) or it can be directed to a different region (CRR). It can also be directed to other AWS account as well. 
 
-### Step 1 — Summary of Step
+Having practiced to create S3 replicated from US-east-1 to AP-southeast-3.I followed Adrian Cantril's instruction to create this demo. Here are the steps:
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Creating bucket as the source bucket**
+- Creating S3 bucket in US-East-1
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Creating bucket as the destination bucket**
+- Creating S3 bucket in AP-Southeast-3
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Setting the Replication**
+- Go to the source bucket
+- Click management
+- Click create replication rule
+- Enable bucket versioning
+- Create a new IAM role
+- Leave other as a default
+
+**Creating a static web hosting in the source bucket**
+- Upload the web file
+- Host a static web hosting by configuring the propeties and update the bucket policy
+
+
+
+### Pre-Designed URL
+
+- Generally S3 bucket is private
+- The pre-designed URL is to enable someone or device to access your S3 within a time limit
+- For more info : https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
+
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### S3 Replication Demo Result
 
-## Next Steps
+**Source bucket static web hosting**
 
-✍️ Describe what you think you think you want to do next.
+![image](https://user-images.githubusercontent.com/99172259/173714220-0172a38c-00b7-4113-b20d-4b1da31e39a7.png)
+
+
+**Destination bucket static web hosting**
+
+http://destinationforykwcloud.s3-website.ap-southeast-3.amazonaws.com/
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1536870867929804801)
