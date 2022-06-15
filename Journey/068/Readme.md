@@ -35,10 +35,14 @@ Having practiced to create S3 replicated from US-east-1 to AP-southeast-3.I foll
 
 
 
-### Pre-Designed URL
+### Pre-signed URL
 
 - Generally S3 bucket is private
 - The pre-designed URL is to enable someone or device to access your S3 within a time limit
+- Use cases (Stephane Maarek - SAA Course on Udemy):
+• Allow only logged-in users to download a premium video on your S3 bucket
+• Allow an ever changing list of users to download files by generating URLs dynamically
+• Allow temporarily a user to upload a file to a precise location in our buckeT
 - For more info : https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
 
 
