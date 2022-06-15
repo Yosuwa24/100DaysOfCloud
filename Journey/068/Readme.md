@@ -53,7 +53,7 @@ Having practiced to create S3 replicated from US-east-1 to AP-southeast-3.I foll
 
 **Destination bucket static web hosting**
 
-http://destinationforykwcloud.s3-website.ap-southeast-3.amazonaws.com/
+![image](https://user-images.githubusercontent.com/99172259/173714831-6b05b320-d96b-4170-96cf-477b08f611e4.png)
 
 
 ## Social Proof
