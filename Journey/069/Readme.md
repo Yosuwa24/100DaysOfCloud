@@ -54,7 +54,5 @@ The simplest way!
 
 
 ## Social Proof
-
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+ 
+[Twitter](https://twitter.com/JoeSeven08/status/1537214125536727040)
