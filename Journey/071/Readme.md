@@ -34,7 +34,7 @@ Public route table example
 
 1. Click on route table
 
-<img src=https://user-images.githubusercontent.com/99172259/174432250-78663c0e-4092-4c08-890e-f9f4c022650c.png width="500" height="500" />
+<img src=https://user-images.githubusercontent.com/99172259/174432250-78663c0e-4092-4c08-890e-f9f4c022650c.png width="500" height="200" />
 
 2. Fill in the name and click create route table
 
