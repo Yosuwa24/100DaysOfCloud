@@ -88,13 +88,31 @@ Public route table example
 
 <img src=https://user-images.githubusercontent.com/99172259/174432829-ed2ea663-f5aa-4b2d-80b6-64c99703ebd7.png width="500" height="200" />
 
-5. 
 
 
 ### Bastion Host/Jumpbox
 
 An instance in a public subnet
 
+**Hands on Bastion Host : SSH Private Instance from Public Instance(AWS SAA Course by Stephane Maarek)**
+
+1. Create vpc
+2. Create 2 subnets in the vpc. One for private and another one for public subnet.
+3. Create 2 route tables. One is associated with private subnet and another is associated with public subnet.
+4. Create internet gateway, attach to the vpc and update add the route in the public route table.
+5. Create 2 instances. One is in a public sub (bastion host) and another one is in private subnet.
+6. The SG is just allow ssh. SG for private instance just allow ssh from sg public instance
+7. Connect to the private instance from the bastion host
+  - ssh connect 
+  - run this command: vi private.pem 
+  - copy paste .pem you create in private instance security group then save it
+  - To save, run this command  :wq!
+  - then run this command: chmod 400 private.pem
+  - run this command : ssh ec2-user@(private ip of your private ec2 instance)
+  
+![image](https://user-images.githubusercontent.com/99172259/174436965-ed000468-fc41-4d8f-b166-b59b7b9c0a11.png)
+
+
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1538135318041608193)
