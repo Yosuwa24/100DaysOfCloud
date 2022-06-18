@@ -110,7 +110,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 67 > [MFA Activation, S3 Storage Classes](Journey/067/Readme.md)
 - [ ] ☁️ 68 > [S3 Replication & Pre-signed URL](Journey/068/Readme.md)
 - [ ] ☁️ 69 > [S3 Pre-signed URL demo](Journey/069/Readme.md)
-- [ ] ☁️ 70 > [](Journey/070/Readme.md)
+- [ ] ☁️ 70 > [VPC Sizing & Structure](Journey/070/Readme.md)
 
 ## Resting at the Lagoon
 
