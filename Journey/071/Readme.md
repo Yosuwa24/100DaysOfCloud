@@ -1,6 +1,6 @@
 
 
-# Subnet & Creating VPC
+# Subnet, Creating VPC & Bastion Host
 
 
 ## Cloud Research
