@@ -127,6 +127,18 @@ Result
 
 - If the outbound SG for allowing http to anywhere is deleted and the inbound still allow http traffic from anywher, the outbound rule still works since SG is stateless.
 
+## Whizzlab Challenge
+
+### Cloud Challenge
+
+In this lab challenge, your Amazon S3 skill is put to the test. You'll be given a requirement and you have to reach it using your knowledge of Amazon S3 and other AWS services. The Lab Challenge helps you understand the real-time scenarios.
+
+ A company XYZ needs to host a web application as a part of their infrastructure. Now your challenge is to create a static HTML website using Amazon S3 and make it accessible from the internet.
+ 
+### Outcome
+
+<img src=https://user-images.githubusercontent.com/99172259/174466949-e579d31e-32a0-416d-a897-90388fee0a40.png width="500" height ="500" />
+
 
 ## Social Proof
 
