@@ -64,7 +64,7 @@ In case you do not need the NAT instance, you can set the NAT gateway for the pr
 <img src=https://user-images.githubusercontent.com/99172259/174465098-b80b3967-f78f-46bc-95d0-138cd84b8d40.png width="700" height="300" />
 
 
-**Comparison NAT gateways between NAT instances**
+**Comparison between NAT gateways & NAT instances**
 
 https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-comparison.html
 
