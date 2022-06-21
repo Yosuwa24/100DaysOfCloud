@@ -1,5 +1,4 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+
 
 # Cloudwatch Alarm - A Course on Learn Cantrill by Adrian Cantrill
 
