@@ -1,52 +1,25 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Virtualization 101 & Storage Type
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Virtualization 101
 
-## Try yourself
+Virtualization is terms for unning more than one OS in one hardware. It needs hypevisor so that the OS can think that it is hardware. While Kernel is part of the OS that can access directly to the hardware. There four methods of performing virtualization:
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- [Emulated Virtualization](https://www.dell.com/en-us/blog/emulation-or-virtualization-what-s-the-difference/)
+- [Paravirtualization](https://www.techtarget.com/searchitoperations/definition/paravirtualization#:~:text=Paravirtualization%20is%20an%20enhancement%20of,emulate%20an%20entire%20hardware%20environment.)
+- [Hardware Assisted Virtualization](https://www.techtarget.com/searchitoperations/definition/hardware-assisted-virtualization#:~:text=Hardware%2Dassisted%20virtualization%20is%20the,system%20designs%20of%20the%201960s)
+- [SR-IOV](https://blog.scottlowe.org/2009/12/02/what-is-sr-iov/)
 
-### Step 1 — Summary of Step
+### Storage Refresher
 
-![Screenshot](https://via.placeholder.com/500x300)
+- EBS vs Instance Store vs EFS
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1539264561668186113)
