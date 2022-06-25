@@ -19,12 +19,12 @@ Hibernate EC2 instance so that when when it is started, it will boot faster sinc
 
 Condition
 
-Supported Instance Families – C3, C4, C5, I3, M3, M4, R3, R4, T2, T3, …
-• Instance RAM Size – must be less than 150 GB
-• AMI – Amazon Linux 2, Linux AMI, Ubuntu, RHEL, CentOS & Windows… 
-• Root Volume – must be EBS, encrypted, not instance store, and large
-• Available for On-Demand, Reserved and Spot Instances
-• An instance can NOT be hibernated more than 60 days
+- Supported Instance Families – C3, C4, C5, I3, M3, M4, R3, R4, T2, T3, …
+- Instance RAM Size – must be less than 150 GB
+- AMI – Amazon Linux 2, Linux AMI, Ubuntu, RHEL, CentOS & Windows… 
+- Root Volume – must be EBS, encrypted, not instance store, and large
+- Available for On-Demand, Reserved and Spot Instances
+- An instance can NOT be hibernated more than 60 days
 
 
 
