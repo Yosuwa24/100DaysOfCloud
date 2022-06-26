@@ -1,52 +1,31 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Creating SNS Topic for S3 (Whizzlab Challenge)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+- A company XYZ is deploying a new web application that helps customers to upload files to S3 Bucket. As a part of the infrastructure, the Administrator needs to be notified via Email whenever an object is put into their S3 bucket. Now your challenge is to setup the AWS architecture to perform this operation. 
 
-## Try yourself
+Follow the below instructions to complete this challenge.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+- Create a Standard Amazon SNS topic named mySnsChallengeTopic
+- Add an Email subscription to that topic and verify it.
+- Create a S3 bucket with a globally unique name.
+- Update the Amazon SNS Topic Access Policy and add permission for S3 to publish messages to SNS Topic that you have created.
+- Now, Create a S3 Notification Event named uploadObjectS3Event. 
+- Select S3 Event type as Put.
+- Select your SNS Topic as event Destination.
+- Test the Configuration by uploading any sample PNG image file to S3 Bucket and see if you're notified. 
 
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 1 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+<img src=https://user-images.githubusercontent.com/99172259/175828303-941fe85e-c533-496c-aa11-1f272a6f014c.png width="300" height="300" />
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1540554568391868418)
