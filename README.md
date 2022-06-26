@@ -119,7 +119,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 73 > [101 virtualization & Storage Type](Journey/073/Readme.md)
 - [ ] ☁️ 74 > [ENI, EC2 Hibernate](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [Creating SNS Topic to Send Notif When S3 Put Object](Journey/075/Readme.md)
-- [ ] ☁️ 76 > [](Journey/076/Readme.md)
+- [ ] ☁️ 76 > [Load Balancer](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [](Journey/079/Readme.md)
