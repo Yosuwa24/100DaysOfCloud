@@ -1,52 +1,31 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
+![image](https://user-images.githubusercontent.com/99172259/175934598-ec21ec0e-7f86-436e-b536-d1fec94fb168.png)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Load Balancer (SAA Course by Stephane Maarek & Adrian Cantrill)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+AWS has 4 kinds of managed Load Balancers
 
-## Try yourself
+**Classic Load Balancer (v1 - old generation) – 2009 – CLB**
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+HTTP, HTTPS, TCP, SSL (secure TCP)
 
-### Step 1 — Summary of Step
+**Application Load Balancer (v2 - new generation) – 2016 – ALB** 
 
-![Screenshot](https://via.placeholder.com/500x300)
+HTTP, HTTPS, WebSocket
 
-### Step 1 — Summary of Step
+**Network Load Balancer (v2 - new generation) – 2017 – NLB** 
 
-![Screenshot](https://via.placeholder.com/500x300)
+TCP, TLS (secure TCP), UDP
 
-### Step 3 — Summary of Step
+**Gateway Load Balancer – 2020 – GWLB** 
 
-![Screenshot](https://via.placeholder.com/500x300)
+Operates at layer 3 (Network layer) – IP Protocol
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+[AWS Source](https://aws.amazon.com/elasticloadbalancing/)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter ](https://twitter.com/JoeSeven08/status/1541395444508815360)
