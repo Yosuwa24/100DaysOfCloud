@@ -120,8 +120,8 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 74 > [ENI, EC2 Hibernate](Journey/074/Readme.md)
 - [ ] ☁️ 75 > [Creating SNS Topic to Send Notif When S3 Put Object](Journey/075/Readme.md)
 - [ ] ☁️ 76 > [Load Balancer](Journey/076/Readme.md)
-- [ ] ☁️ 77 > [](Journey/077/Readme.md)
-- [ ] ☁️ 78 > [](Journey/078/Readme.md)
+- [ ] ☁️ 77 > [CLB & ALB](Journey/077/Readme.md)
+- [ ] ☁️ 78 > [NLB, GLB, Sticky Session & Cross-Zone Load Balancing](Journey/078/Readme.md)
 - [ ] ☁️ 79 > [](Journey/079/Readme.md)
 - [ ] ☁️ 80 > [](Journey/080/Readme.md)
 
