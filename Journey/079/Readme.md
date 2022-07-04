@@ -1,52 +1,25 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# ELB : SSL Certificate & Connection Drainibg (A Course on Udemy by Stephane Maarek)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### SSL Certificate
 
-## Try yourself
+![image](https://user-images.githubusercontent.com/99172259/177186918-69294496-71bc-4d4f-8a59-618ba20800ac.png)
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+SNI solves the problem of loading multiple SSL certificates onto one web server (to serve multiple websites)
 
-### Step 1 — Summary of Step
+Only works for ALB & NLB (newer generation), CloudFront
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Connection Draining/Deregistration Delay
 
-### Step 1 — Summary of Step
+Time to complete “in-flight requests” while the  instance is de-registering or unhealthy
 
-![Screenshot](https://via.placeholder.com/500x300)
+Stops sending new requests to the EC2 instance which is de-registering
 
-### Step 3 — Summary of Step
-
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1543987510606712832)
