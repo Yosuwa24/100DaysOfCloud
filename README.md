@@ -122,7 +122,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 76 > [Load Balancer](Journey/076/Readme.md)
 - [ ] ☁️ 77 > [CLB & ALB](Journey/077/Readme.md)
 - [ ] ☁️ 78 > [NLB, GLB, Sticky Session & Cross-Zone Load Balancing](Journey/078/Readme.md)
-- [ ] ☁️ 79 > [](Journey/079/Readme.md)
+- [ ] ☁️ 79 > [ELB: SSL Certificate & Connection Draining](Journey/079/Readme.md)
 - [ ] ☁️ 80 > [](Journey/080/Readme.md)
 
 ## Up into the mountains
