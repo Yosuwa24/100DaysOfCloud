@@ -1,52 +1,113 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Auto Scalling Group (A Course on Udemmy by Stephane Maarek)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+<img src=https://user-images.githubusercontent.com/99172259/177274347-17e51c0c-4c80-4699-993d-6cb976667f1a.png width="500" height="300" />
 
-## Try yourself
+How to create it
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+1. Create a template
 
-### Step 1 — Summary of Step
+<img src=https://user-images.githubusercontent.com/99172259/177274530-49833a2a-5095-4bc3-823c-dfab7fae52c6.png width="500" height="300" />
 
-![Screenshot](https://via.placeholder.com/500x300)
+If you have not had a template, you can create a new one. Inside the template, you can set:
 
-### Step 1 — Summary of Step
+- Application and OS Images (Amazon Machine Image) 
+- Instance type
+- Key pair (login)
+- Network settings
+- and so on just like when you create a new instance
 
-![Screenshot](https://via.placeholder.com/500x300)
+2. Launch the template
 
-### Step 3 — Summary of Step
+You can set the network (vpc and subnets). 
 
-![Screenshot](https://via.placeholder.com/500x300)
+3. Advance Configuration
 
-## ☁️ Cloud Outcome
+You can attach a load balancer
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+4. Configure group size and scaling policies
 
-## Next Steps
+<img src=https://user-images.githubusercontent.com/99172259/177284676-f90a7e5a-8705-41d2-8cfa-9085df63b58a.png width="500" height="300" />
 
-✍️ Describe what you think you think you want to do next.
+5. Add notifications (optional)
+
+<img src=https://user-images.githubusercontent.com/99172259/177284895-28b2b5ee-ca14-4e16-a34d-493072044991.png width="500" height="300" />
+
+6. Add tags (optional)
+
+7. Review first and just click next and it will automatically launch a number of instances according to the limit you set
+
+
+**The status of auto scaling group:**
+
+![image](https://user-images.githubusercontent.com/99172259/177285461-b2d6edb5-a73b-48e3-b93b-6efc09576a07.png)
+
+
+**Instances:**
+
+![image](https://user-images.githubusercontent.com/99172259/177285557-b1d535fc-2f8f-41d0-8528-867067c68922.png)
+
+
+**user data works for both instances:**
+
+![image](https://user-images.githubusercontent.com/99172259/177285811-c85bee6f-268a-45bd-8eab-92116a50e1b3.png)
+
+![image](https://user-images.githubusercontent.com/99172259/177286034-494f5430-f4ea-4472-b6c2-8c3a24d3452b.png)
+
+
+**ELB: ALB  also works**
+
+![image](https://user-images.githubusercontent.com/99172259/177286179-a1f87726-b178-45c8-aaa9-8209ac84bc67.png)
+
+
+**When one instance is terminated a new instance will be launched:**
+
+
+![image](https://user-images.githubusercontent.com/99172259/177286610-0769c083-be68-477d-b8f2-abc8a7332e8c.png)
+
+**Deleting the auto scalling group will also delete all resources in it.**
+
+![image](https://user-images.githubusercontent.com/99172259/177289024-15b4fa6b-0672-4e7c-8a0c-092503b18949.png)
+
+### ASG - Policies
+
+**Dynamic Scalling Policies**
+
+- Target Tracking Scaling
+
+use case : I want the average ASG CPU to stay at around 40%
+
+- Simple/step scalling
+
+When a cloudwatch alarm is trigerred (example CPU > 70%), then add 2 units
+
+**Scheduled Actions**
+
+Anticipate a scaling based on known usage patterns
+
+Example : increase the min capacity to 10 at 5 pm on Fridays
+
+**Predictive Scaling**
+
+Continuesly forecast load and schedule scaling ahead
+
+
+**ASG for Solutions Architects**
+
+ASG Default Termination Policy (simplified version):
+
+1. which AZ has the most numbers of instances
+2. If there are multiple instances in the AZ, delete the oldest launch configuration
+
+Lifecycle Hooks
+
+By default as soon as an instance is launched in an ASG it's in service
+you have the ability to perform extra steps before the instance goes in service and before the instance is terminated
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1544265792518524928)
