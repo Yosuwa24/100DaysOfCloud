@@ -1,52 +1,71 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Containerization & Docker (An AWS SAA Course by Adrian Cantrill)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+<img width="1924" alt="Containerization" src="https://user-images.githubusercontent.com/99172259/177656231-269ff3f4-6c85-4493-bc7d-25bf3905a6ea.png">
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Definition**
 
-## Try yourself
+A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
 
-### Step 1 — Summary of Step
+A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
 
-![Screenshot](https://via.placeholder.com/500x300)
+[source](https://docs.docker.com/get-started/overview/)
 
-### Step 1 — Summary of Step
+## Installing Docker Engine on EC2 Instance Demo
 
-![Screenshot](https://via.placeholder.com/500x300)
+1. **Create EC2 Instance using amazon linux AMI and t2.micro (Free tier) with public ip address**
+2. **Installing docker on EC2**
 
-### Step 3 — Summary of Step
+- Run this command to install the engine
 
-![Screenshot](https://via.placeholder.com/500x300)
+      sudo amazon-linux-extras install docker
 
-## ☁️ Cloud Outcome
+- Start the docker engine
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+      sudo service docker start
+      
+- Enable your EC2 interact with the docker machine
 
-## Next Steps
+      sudo usermod -a -G docker ec2-user
 
-✍️ Describe what you think you think you want to do next.
+- Logout and login
+
+       sudo su - ec2-user
+
+3. **Build docker image**
+
+- Run this command to create directory
+
+      cd container
+    
+- create the container first. 
+
+      docker build -t containerofcats .
+    
+- Create the image
+
+      docker images --filter reference=containerofcats
+    
+4. **Run container from image**
+
+       docker run -t -i -p 80:80 containerofcats
+     
+     
+
+## Outcome
+
+![image](https://user-images.githubusercontent.com/99172259/177659333-d3d6174d-7c6f-44a2-af31-5607b4701538.png)
+
+    
+    
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)
