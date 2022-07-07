@@ -17,6 +17,8 @@ A container is defined by its image as well as any configuration options you pro
 
 [source](https://docs.docker.com/get-started/overview/)
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 [Docker Definition Explained in Bahasa Indonesia](https://www.youtube.com/watch?v=d2oOFasv0B4)
 
 [Container explained in Bahasa Indonesia](https://www.youtube.com/watch?v=7tVt0JVkJy8)
