@@ -17,6 +17,8 @@ A container is defined by its image as well as any configuration options you pro
 
 [source](https://docs.docker.com/get-started/overview/)
 
+[Docker Definition Explained in Bahasa Indonesia](https://www.youtube.com/watch?v=d2oOFasv0B4)
+
 ## Installing Docker Engine on EC2 Instance Demo
 
 1. **Create EC2 Instance using amazon linux AMI and t2.micro (Free tier) with public ip address**
