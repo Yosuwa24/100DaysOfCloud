@@ -11,7 +11,7 @@ Amazon ECS eliminates the need for you to install and operate your own container
 
 [Source](https://ecsworkshop.com/introduction/ecs_basics/)
 
-**Things you should know**
+### Things you should know
 
 [Cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html)
 
@@ -24,6 +24,11 @@ Amazon ECS eliminates the need for you to install and operate your own container
 [Service](https://ecsworkshop.com/introduction/ecs_basics/service/)
 
 [Fargate](https://ecsworkshop.com/introduction/ecs_basics/fargate/)
+
+### ECS Launch Type
+
+**EC2 Launch Type**
+
 
 
 
