@@ -131,7 +131,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 82 > [Elastic Container Service](Journey/082/Readme.md)
 - [ ] ☁️ 83 > [ECS - Hands On](Journey/083/Readme.md)
 - [ ] ☁️ 84 > [ECR & EKS](Journey/084/Readme.md)
-- [ ] ☁️ 85 > [](Journey/085/Readme.md)
+- [ ] ☁️ 85 > [RDS Review](Journey/085/Readme.md)
 - [ ] ☁️ 86 > [](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [](Journey/087/Readme.md)
 - [ ] ☁️ 88 > [](Journey/088/Readme.md)
