@@ -1,52 +1,45 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# RDS Review : An SAA Course by Stephane Maarek
 
-## Introduction
+![image](https://user-images.githubusercontent.com/99172259/179116256-59c32770-0a94-4b51-8b80-e44ee760dbb8.png)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
 
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**RDS is a managed service:**
 
-## Try yourself
+• Automated provisioning, OS patching
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+• Continuous backups and restore to specific timestamp (Point in Time Restore)!
 
-### Step 1 — Summary of Step
+• Monitoring dashboards
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Read replicas for improved read performance
 
-### Step 1 — Summary of Step
+• Multi AZ setup for DR (Disaster Recovery)
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Maintenance windows for upgrades
 
-### Step 3 — Summary of Step
+• Scaling capability (vertical and horizontal)
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Storage backed by EBS (gp2 or io1)
 
-## ☁️ Cloud Outcome
+You cant ssh
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+**RDS – Storage Auto Scaling**
 
-## Next Steps
+![image](https://user-images.githubusercontent.com/99172259/179116134-a10d2e22-8d7f-4cc9-b736-1eec4b6f8365.png)
 
-✍️ Describe what you think you think you want to do next.
+**Read Replica**
+
+![image](https://user-images.githubusercontent.com/99172259/179116187-3b29b4fa-2cd3-4857-bbf5-561a79799e67.png)
+
+**Multi AZ**
+
+![image](https://user-images.githubusercontent.com/99172259/179116338-62263483-2827-4b08-aa39-47898709d71a.png)
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1546861739546816513)
