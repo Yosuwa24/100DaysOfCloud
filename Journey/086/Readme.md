@@ -84,7 +84,7 @@
 
 5. Connect into the database and try to create table and insert some data
 
-<img src=https://user-images.githubusercontent.com/99172259/179121561-7c231e5b-57ce-4b2b-9ad7-5b0982fe7cb4.png 
+<img src=https://user-images.githubusercontent.com/99172259/179121561-7c231e5b-57ce-4b2b-9ad7-5b0982fe7cb4.png width="400" height="200" />
 
 
 ## Social Proof
