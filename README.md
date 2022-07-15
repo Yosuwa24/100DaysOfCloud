@@ -133,7 +133,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 84 > [ECR & EKS](Journey/084/Readme.md)
 - [ ] ☁️ 85 > [RDS Review](Journey/085/Readme.md)
 - [ ] ☁️ 86 > [RDS : Hands On](Journey/086/Readme.md)
-- [ ] ☁️ 87 > [](Journey/087/Readme.md)
+- [ ] ☁️ 87 > [Aurora](Journey/087/Readme.md)
 - [ ] ☁️ 88 > [](Journey/088/Readme.md)
 - [ ] ☁️ 89 > [](Journey/089/Readme.md)
 - [ ] ☁️ 90 > [](Journey/090/Readme.md)
