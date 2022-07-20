@@ -1,52 +1,36 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Route 53 : How to Create Record Name, How TTL Works, Alias vs CNAME (SAA Course on Udemy by Stephane Maarek)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### How to Create Record Name
 
-## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### How TTL Works
 
-### Step 1 — Summary of Step
+![image](https://user-images.githubusercontent.com/99172259/179877109-12c76d11-c5d3-4521-8634-5d53910678b4.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Alias vs CNAME
 
-### Step 1 — Summary of Step
+**CNAME:**
+• Points a hostname to any other hostname. (app.mydomain.com => blabla.anything.com)
 
-![Screenshot](https://via.placeholder.com/500x300)
+• ONLY FOR NON ROOT DOMAIN (aka. something.mydomain.com) 
 
-### Step 3 — Summary of Step
+**Alias:** 
+• Points a hostname to an AWS Resource (app.mydomain.com => blabla.amazonaws.com) 
 
-![Screenshot](https://via.placeholder.com/500x300)
+• Works for ROOT DOMAIN and NON ROOT DOMAIN (aka mydomain.com) 
 
-## ☁️ Cloud Outcome
+• Free of charge 
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+• Native health check
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+
+[Twitter](https://twitter.com/JoeSeven08/status/1549058863454109696)
