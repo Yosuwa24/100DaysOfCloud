@@ -15,11 +15,13 @@
 ### Alias vs CNAME
 
 **CNAME:**
+
 • Points a hostname to any other hostname. (app.mydomain.com => blabla.anything.com)
 
 • ONLY FOR NON ROOT DOMAIN (aka. something.mydomain.com) 
 
 **Alias:** 
+
 • Points a hostname to an AWS Resource (app.mydomain.com => blabla.amazonaws.com) 
 
 • Works for ROOT DOMAIN and NON ROOT DOMAIN (aka mydomain.com) 
