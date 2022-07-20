@@ -23,10 +23,22 @@ Weighted routing policy – Use to route traffic to multiple resources in propor
 
 ### Health Check
 
+Amazon Route 53 health checks monitor the health and performance of your web applications, web servers, and other resources. Each health check that you create can monitor one of the following:
 
+The health of a specified resource, such as a web server.
+
+The status of other health checks.
+
+The status of an Amazon CloudWatch alarm.
+
+Additionally, with Amazon Route 53 Application Recovery Controller, you can set up routing control health checks with DNS failover records to manage traffic failover for your application.
+
+More info : https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/dns-failover.html
+
+### 3rd Party Domain Registrar
 
 
 
 ## Social Proof
 
-[Twitter](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1549422634453966848)
