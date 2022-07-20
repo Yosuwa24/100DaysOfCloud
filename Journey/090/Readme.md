@@ -1,52 +1,32 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
-
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Route 53 routing policy, Health check, 3rd party domain registrar ( An SAA Course by Stephane Maarek on Udemy)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Route 53 routing policy
 
-## Try yourself
+Simple routing policy – Use for a single resource that performs a given function for your domain, for example, a web server that serves content for the example.com website. You can use simple routing to create records in a private hosted zone.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+Failover routing policy – Use when you want to configure active-passive failover. You can use failover routing to create records in a private hosted zone.
 
-### Step 1 — Summary of Step
+Geolocation routing policy – Use when you want to route traffic based on the location of your users. You can use geolocation routing to create records in a private hosted zone.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Geoproximity routing policy – Use when you want to route traffic based on the location of your resources and, optionally, shift traffic from resources in one location to resources in another.
 
-### Step 1 — Summary of Step
+Latency routing policy – Use when you have resources in multiple AWS Regions and you want to route traffic to the region that provides the best latency. You can use latency routing to create records in a private hosted zone.
 
-![Screenshot](https://via.placeholder.com/500x300)
+IP-based routing policy – Use when you want to route traffic based on the location of your users, and have the IP addresses that the traffic originates from.
 
-### Step 3 — Summary of Step
+Multivalue answer routing policy – Use when you want Route 53 to respond to DNS queries with up to eight healthy records selected at random. You can use multivalue answer routing to create records in a private hosted zone.
 
-![Screenshot](https://via.placeholder.com/500x300)
+Weighted routing policy – Use to route traffic to multiple resources in proportions that you specify. You can use weighted routing to create records in a private hosted zone.
 
-## ☁️ Cloud Outcome
+### Health Check
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](link)
