@@ -135,8 +135,8 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 86 > [RDS : Hands On](Journey/086/Readme.md)
 - [ ] ☁️ 87 > [Aurora](Journey/087/Readme.md)
 - [ ] ☁️ 88 > [Advanced Demo - AWS Client VPN](Journey/088/Readme.md)
-- [ ] ☁️ 89 > [](Journey/089/Readme.md)
-- [ ] ☁️ 90 > [](Journey/090/Readme.md)
+- [ ] ☁️ 89 > [Route 53: How to create record name, What TLL is, Alias vs CNAME](Journey/089/Readme.md)
+- [ ] ☁️ 90 > [Route 53 : Routing Policy](Journey/090/Readme.md)
 
 ## Into the sky to touch the cloud!
 
