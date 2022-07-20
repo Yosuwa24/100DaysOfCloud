@@ -7,6 +7,7 @@
 
 ### How to Create Record Name
 
+[Guidance to create record](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resource-record-sets-creating.html)
 
 ### How TTL Works
 
