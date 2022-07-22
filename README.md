@@ -140,7 +140,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 ## Into the sky to touch the cloud!
 
-- [ ] ☁️ 91 > [](Journey/091/Readme.md)
+- [ ] ☁️ 91 > [Classic solution architect discussion](Journey/091/Readme.md)
 - [ ] ☁️ 92 > [](Journey/092/Readme.md)
 - [ ] ☁️ 93 > [](Journey/093/Readme.md)
 - [ ] ☁️ 94 > [](Journey/094/Readme.md)
