@@ -1,52 +1,55 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# S3 CORS (Cross-Origin Resource Sharing)
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+An origin is a scheme (protocol), host (domain) and port
+
+• E.g.: https://www.example.com (implied port is 443 for HTTPS, 80 for HTTP)
+
+CORS means Cross-Origin Resource Sharing
+
+- Web Browser based mechanism to allow requests to other origins while visiting the main origin
+- Same origin: http://example.com/app1 & http://example.com/app2
+- Different origins: http://www.example.com & http://other.example.com
+- The requests won’t be fulfilled unless the other origin allows for the requests, using CORS Headers (ex: Access-Control-Allow-Origin)
+
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1 — Create 2 S3 Buckets: One Main Bucket and extra bucket
 
-### Step 1 — Summary of Step
+**Main Bucket consists of :** 
+- Index html (fetch to extra bucket)
+- Error html
+- Static website
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Extra bucket consists of:**
+- extra-page html
+- Static website
 
-### Step 1 — Summary of Step
+### Step 2 — Allow CORS on Extra Bucket
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Applying JSON file of the CORS
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+
 
 ## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+**Main Bucket**
 
-## Next Steps
+![s3 cors](https://user-images.githubusercontent.com/99172259/180357281-dfb209e5-3084-4c57-93d8-2687517a1c2b.JPG)
 
-✍️ Describe what you think you think you want to do next.
+
+**Extra Bucket**
+
+![s3 cors2](https://user-images.githubusercontent.com/99172259/180357431-adac43f6-4f7e-4463-91e3-58975a9082ac.JPG)
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1550135357144186881)
