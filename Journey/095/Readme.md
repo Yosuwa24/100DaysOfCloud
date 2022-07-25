@@ -1,52 +1,35 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+#  Build an Application Using a NoSQL Key-Value Data Store Part 2
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Module 2: Inserting and retrieving data**
 
-## Try yourself
+Based on this https://aws.amazon.com/getting-started/guides/build-an-application-using-a-no-sql-key-value-data-store/module-two/?pg=nosql
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+### Step 1 — Create table
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/99172259/180813199-fc12f4b9-9514-4dee-a5c4-7156d2416cc6.png)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+![image](https://user-images.githubusercontent.com/99172259/180813252-a38f3e20-ed6e-4858-ae8b-b5aa7464bf82.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 —  Insert items into our books table
 
-## ☁️ Cloud Outcome
+{
+        "Statement": "INSERT INTO "Books" value {'Author': 'Antje Barth', 'Title': 'Data Science on AWS','Category': 'Technology', 'Formats': { 'Hardcover': 'J4SUKVGU', 'Paperback': 'D7YF4FCX' } }"
+    },
+    {
+        "Statement": "INSERT INTO "Books" value {'Author': 'Julien Simon', 'Title': 'Learn Amazon SageMaker','Category': 'Technology', 'Formats': { 'Hardcover': 'Q7QWE3U2','Paperback': 'ZVZAYY4F', 'Audiobook': 'DJ9KS9NM' } }"
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+### Step 3 — Retrieve an item from our books table
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
+![image](https://user-images.githubusercontent.com/99172259/180813573-bb90362a-af17-4599-b668-9f202f989039.png)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1551587214869798917)
