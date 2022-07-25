@@ -1,52 +1,81 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
+# Build an Application Using a NoSQL Key-Value Data Store Part 1
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+- An AWS account: If you don't already have one, follow the Setting Up Your Environment getting started guide for a quick overview.
+- An installed version of the AWS Python SDK via pip install boto3
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+In this tutorial, you will create a bookstore application that showcases a product catalog. Products typically contain unique identifiers and attributes such as descriptions, quantities, locations, and prices. The method for retrieving these types of attributes (specifically, the access pattern) is often a key-value lookup based on the product’s unique identifier. This means that an application can retrieve these other attributes when a product’s unique identifier is provided.
+
+![image](https://user-images.githubusercontent.com/99172259/180802947-0d6a8880-17a2-4e2e-811f-539b056f9ee4.png)
+
+
+The complete guide can be seen [here](https://aws.amazon.com/getting-started/guides/build-an-application-using-a-no-sql-key-value-data-store/?pg=nosql)
+
+Before doing the steps above, install boto3 first. You can read the full guideline here:
+
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
+
 
 ## Try yourself
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+### Step 1 — Installing Python on Command Prompt
 
-### Step 1 — Summary of Step
+https://www.python.org/downloads/
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Step 2 - Install Boto3
 
-### Step 1 — Summary of Step
+![image](https://user-images.githubusercontent.com/99172259/180805101-0202ba7d-1055-4967-94c1-fac6449e047c.png)
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+### Step 3 — Using the AWS Common Runtime (CRT)
 
-![Screenshot](https://via.placeholder.com/500x300)
+Run these commands on the command prompt
 
-## ☁️ Cloud Outcome
+     pip install boto3[crt]
+  
+To revert to the non-CRT version of Boto3, use this command:
+  
+      pip uninstall awscrt
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+If you need to re-enable CRT, reinstall boto3[crt] to ensure you get a compatible version of awscrt:
+     
+     pip install boto3[crt]
+     
+     
+### Step 4 — Configuration
 
-## Next Steps
+run command
 
-✍️ Describe what you think you think you want to do next.
+    aws configure
+    
+    
+### Step 4 — Using Boto3
+
+**Login into python**
+
+     pyhton
+
+**Run this command**
+
+     import boto3
+
+Now let see amazon s3 bucket in our S3
+
+    s3 = boto3.resource('s3')
+
+Then this
+
+    for bucket in s3.buckets.all():
+      print(bucket.name)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1551231951042129920)
