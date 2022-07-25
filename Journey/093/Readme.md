@@ -1,52 +1,38 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# S3 MFA Delete, Default Encryption, Performance & Athena (A Course on Udemy by Stephane Maarek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### S3 MFA Delete
+MFA (multi factor authentication) forces user to generate a code on a device (usually a mobile phone or hardware) before doing important operations on S3
 
-## Try yourself
+To use MFA-Delete, enable Versioning on the S3 bucket
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+You will need MFA to
+- permanently delete an object version
+- suspend versioning on the bucket
 
-### Step 1 — Summary of Step
+You won’t need MFA for
+- enabling versioning
+- listing deleted versions
 
-![Screenshot](https://via.placeholder.com/500x300)
+### S3 Default Encryption
 
-### Step 1 — Summary of Step
+Read here : https://docs.aws.amazon.com/AmazonS3/latest/userguide/default-bucket-encryption.html
 
-![Screenshot](https://via.placeholder.com/500x300)
+### S3 Performance
 
-### Step 3 — Summary of Step
+[Multi Part Upload](https://docs.aws.amazon.com/AmazonS3/latest/userguide/qfacts.html)
 
-![Screenshot](https://via.placeholder.com/500x300)
+[S3 Transfer Acceleration](https://aws.amazon.com/s3/transfer-acceleration/#:~:text=S3%20Transfer%20Acceleration%20(S3TA)%20reduces,to%20S3%20for%20remote%20applications.)
 
-## ☁️ Cloud Outcome
+### Athena
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+Read here :  https://aws.amazon.com/athena/
 
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1550872261271638021)
