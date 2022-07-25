@@ -142,7 +142,7 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 
 - [ ] ☁️ 91 > [Classic solution architect discussion](Journey/091/Readme.md)
 - [ ] ☁️ 92 > [S3 CORS - Hands on](Journey/092/Readme.md)
-- [ ] ☁️ 93 > [](Journey/093/Readme.md)
+- [ ] ☁️ 93 > [S3 MFA Delete,Default encryption, Performance & Athena](Journey/093/Readme.md)
 - [ ] ☁️ 94 > [](Journey/094/Readme.md)
 - [ ] ☁️ 95 > [](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [](Journey/096/Readme.md)
