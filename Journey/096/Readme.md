@@ -36,7 +36,10 @@ source : https://aws.amazon.com/getting-started/guides/setup-cdk/module-two/
        cdk init app --language=python
        
  - Please make sure to run **python3 -m venv .venv** afterwards.
- 
+
+
+ ![cdk init python](https://user-images.githubusercontent.com/99172259/182505532-3c7ec5c6-5b55-4649-95bc-2b5139298352.JPG)
+
 
 
 
