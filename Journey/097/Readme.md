@@ -1,52 +1,33 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# Deploy web app on EKS part 2
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Error when installing libraries 
 
-## Try yourself
+As the steps suggest, libraries should be installed by run this command **pip3 install -r requirements.txt** . Before doing that, the requirement.txt should be modified as it is suggested. But after that there is an error.
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
 
-### Step 1 — Summary of Step
+![error on libraries installation](https://user-images.githubusercontent.com/99172259/182505911-5ffe341d-d758-4d20-b456-bbc4403b73f0.JPG)
 
-![Screenshot](https://via.placeholder.com/500x300)
+### Troubleshooting
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
 
-### Step 3 — Summary of Step
+- Install / update cdk cli & bootstraping cdk with aws account
 
-![Screenshot](https://via.placeholder.com/500x300)
+Try to install cdk with the example version in the guide which is 1.121.0 . But the problem still occurs.
 
-## ☁️ Cloud Outcome
+Source :https://docs.aws.amazon.com/cdk/v2/guide/cli.html
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
 
-## Next Steps
 
-✍️ Describe what you think you think you want to do next.
+- Still got error > follow the suggesstion: removing the version on the requirement.txt 
+
+Removing the version in the requirement as it is suggested by this [source](https://pip.pypa.io/en/latest/topics/dependency-resolution/#dealing-with-dependency-conflicts). But the result is still error.
+
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1553046215172177920)
