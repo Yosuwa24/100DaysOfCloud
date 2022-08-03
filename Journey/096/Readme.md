@@ -1,52 +1,46 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
+# Deploy web app on EKS part 1
 
 ## Introduction
 
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
+This task is based on the https://aws.amazon.com/getting-started/guides/deploy-webapp-eks/
 
 ## Prerequisite
 
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
+Before Starting this guide, you will need:
 
-## Use Case
+An AWS account: if you don't already have one follow the Setup Your Environment getting started guide for a quick overview.
+CDK Installed: Visit our Setup AWS CDK getting started guide to learn more.
 
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+### Installing AWS CDK
 
-## Try yourself
+source : https://aws.amazon.com/getting-started/guides/setup-cdk/module-two/
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+![aws cdk install](https://user-images.githubusercontent.com/99172259/182504965-b6f46e7b-292f-4210-ac1b-ea5604b0fea8.JPG)
 
-### Step 1 — Summary of Step
+### Build AWS CDK Application
 
-![Screenshot](https://via.placeholder.com/500x300)
+- Creating directories. Run this following command in the command prompt
 
-### Step 1 — Summary of Step
+       mkdir eks
+     
+       cd eks
+     
+       mkdir cluster cdk8s
+     
+       cd cluster
 
-![Screenshot](https://via.placeholder.com/500x300)
+       cdk init app --language=python
+       
+ - Please make sure to run **python3 -m venv .venv** afterwards.
+ 
 
-### Step 3 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
-
-## ☁️ Cloud Outcome
-
-✍️ (Result) Describe your personal outcome, and lessons learned.
-
-## Next Steps
-
-✍️ Describe what you think you think you want to do next.
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
 
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1552304800783429633)
