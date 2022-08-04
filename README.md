@@ -147,6 +147,6 @@ In the end, I would like to have basic knowledge of networking (IP address), vir
 - [ ] ☁️ 95 > [Build an Application Using a NoSQL Key-Value Data Store Part 2](Journey/095/Readme.md)
 - [ ] ☁️ 96 > [Deploy web app on EKS part 1:](Journey/096/Readme.md)
 - [ ] ☁️ 97 > [Deploy web app on EKS part 2](Journey/097/Readme.md)
-- [ ] ☁️ 98 > [](Journey/098/Readme.md)
+- [ ] ☁️ 98 > [CloudFront with S3 hands on](Journey/098/Readme.md)
 - [ ] ☁️ 99 > [](Journey/099/Readme.md)
 - [ ] ☁️ 100 > [](Journey/100/Readme.md)
