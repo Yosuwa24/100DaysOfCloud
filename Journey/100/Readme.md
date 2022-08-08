@@ -1,52 +1,33 @@
-**Add a cover photo like:**
-![placeholder image](https://via.placeholder.com/1200x600)
 
-# New post title here
 
-## Introduction
-
-✍️ (Why) Explain in one or two sentences why you choose to do this project or cloud topic for your day's study.
-
-## Prerequisite
-
-✍️ (What) Explain in one or two sentences the base knowledge a reader would need before describing the the details of the cloud service or topic.
-
-## Use Case
-
-- 🖼️ (Show-Me) Create an graphic or diagram that illustrate the use-case of how this knowledge could be applied to real-world project
-- ✍️ (Show-Me) Explain in one or two sentences the use case
+# AWS Storage Extras (An SAA Course on Udemy by Stephane Maarek)
 
 ## Cloud Research
 
-- ✍️ Document your trial and errors. Share what you tried to learn and understand about the cloud topic or while completing micro-project.
-- 🖼️ Show as many screenshot as possible so others can experience in your cloud research.
+**Amazon FSx**
 
-## Try yourself
+Source : https://aws.amazon.com/fsx/?nc=sn&loc=0
 
-✍️ Add a mini tutorial to encourage the reader to get started learning something new about the cloud.
+**Amazon Storage Gateway**
 
-### Step 1 — Summary of Step
+Source : https://aws.amazon.com/storagegateway/?nc2=type_a
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/99172259/183373137-87c68f3b-a55e-4159-8b60-d2f3736d415a.png)
 
-### Step 1 — Summary of Step
 
-![Screenshot](https://via.placeholder.com/500x300)
+**Amazon FSx File Gateway**
 
-### Step 3 — Summary of Step
+Source : https://aws.amazon.com/storagegateway/file/fsx/
 
-![Screenshot](https://via.placeholder.com/500x300)
+![image](https://user-images.githubusercontent.com/99172259/183373374-ee5f234c-276d-4cfa-85fe-ba5d0c3336d8.png)
 
-## ☁️ Cloud Outcome
 
-✍️ (Result) Describe your personal outcome, and lessons learned.
+**AWS Transfer Family**
 
-## Next Steps
+Source : https://aws.amazon.com/aws-transfer-family/
 
-✍️ Describe what you think you think you want to do next.
+![image](https://user-images.githubusercontent.com/99172259/183373638-a06fa810-dbfb-44ef-abb1-f00cd8ca62c8.png)
 
 ## Social Proof
 
-✍️ Show that you shared your process on Twitter or LinkedIn
-
-[link](link)
+[Twitter](https://twitter.com/JoeSeven08/status/1556557289804668928)
